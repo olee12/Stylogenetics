@@ -14,9 +14,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearningProject$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1460630165244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$emon_jubayer_crawler.coverage" NAME="emon_jubayer_crawler Coverage Results" MODIFIED="1461062808145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1460630165244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$MakeAGivenFolderNormal.coverage" NAME="MakeAGivenFolderNormal Coverage Results" MODIFIED="1462139810542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$abu_hena_md_ashraful_islam_crawler.coverage" NAME="abu_hena_md_ashraful_islam_crawler Coverage Results" MODIFIED="1461063223394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$MakeNormalData__1_.coverage" NAME="MakeNormalData (1) Coverage Results" MODIFIED="1462141519429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/Stylogenetics$matplotlibTest.coverage" NAME="matplotlibTest Coverage Results" MODIFIED="1462038852551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Not Important" />
     <SUITE FILE_PATH="coverage/Stylogenetics$my_corpus.coverage" NAME="my_corpus Coverage Results" MODIFIED="1461947612887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
     <SUITE FILE_PATH="coverage/LearningProject$shada_moner_manush.coverage" NAME="shada_moner_manush Coverage Results" MODIFIED="1461063353089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -24,6 +26,7 @@
     <SUITE FILE_PATH="coverage/LearningProject$hasan_mahbub.coverage" NAME="hasan_mahbub Coverage Results" MODIFIED="1461063073043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$md_maksudur_rahman_crawler.coverage" NAME="md_maksudur_rahman_crawler Coverage Results" MODIFIED="1461063442583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stylogenetics$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1461918201150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$GramSingleWriter.coverage" NAME="GramSingleWriter Coverage Results" MODIFIED="1462139881468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$somewhereinblogCrawler.coverage" NAME="somewhereinblogCrawler Coverage Results" MODIFIED="1460721493631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stylogenetics$test.coverage" NAME="test Coverage Results" MODIFIED="1461604644026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
     <SUITE FILE_PATH="coverage/LearningProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1460731434764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -35,10 +38,11 @@
     <SUITE FILE_PATH="coverage/LearningProject$wasim_faruk_crawler.coverage" NAME="wasim_faruk_crawler Coverage Results" MODIFIED="1461076915858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stylogenetics$my_corpus__1_.coverage" NAME="my_corpus (1) Coverage Results" MODIFIED="1461947920903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$webcrawler.coverage" NAME="webcrawler Coverage Results" MODIFIED="1460701809188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering.coverage" NAME="TextFiltering Coverage Results" MODIFIED="1462050131112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data/my_main_data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering.coverage" NAME="TextFiltering Coverage Results" MODIFIED="1462141509284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$shocheton_happy.coverage" NAME="shocheton_happy Coverage Results" MODIFIED="1461077147765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$mahi_rahi_crawler.coverage" NAME="mahi_rahi_crawler Coverage Results" MODIFIED="1461063939771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$downloadCsv.coverage" NAME="downloadCsv Coverage Results" MODIFIED="1461502569720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$Unigram.coverage" NAME="Unigram Coverage Results" MODIFIED="1462135567982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$md_zahirul_islam_crawler.coverage" NAME="md_zahirul_islam_crawler Coverage Results" MODIFIED="1461063603110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$test.coverage" NAME="test Coverage Results" MODIFIED="1460728586426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$makedocfromhtml.coverage" NAME="makedocfromhtml Coverage Results" MODIFIED="1460733321525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -54,32 +58,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MakeNormalData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/MakeNormalData.py">
+        <entry file="file://$PROJECT_DIR$/my_main_data/MakeNormalData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#1829#2641#0" expanded="false" />
+                <element signature="e#2682#2795#0" expanded="false" />
+                <element signature="e#2819#3275#0" expanded="false" />
+                <element signature="e#3314#4400#0" expanded="false" />
+                <element signature="e#5401#6450#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextFiltering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/TextFiltering.py">
+      <file leaf-file-name="GramSingleWriter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main_data/GramSingleWriter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="241">
+              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#479#1177#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeAGivenFolderNormal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFiltering.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main_data/TextFiltering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="my_corpus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/my_corpus.py">
+        <entry file="file://$PROJECT_DIR$/my_main_data/my_corpus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -140,7 +171,14 @@
         <option value="$USER_HOME$/Dropbox/SHARED (1)/OLEE&amp;MMRS/python/LearningProject/Raw Data and Crawler/nir_shondhani_crawler.py" />
         <option value="$PROJECT_DIR$/Not Important/matplotlibTest.py" />
         <option value="$PROJECT_DIR$/Normal Data/my_main_data/TextFiltering.py" />
+        <option value="$PROJECT_DIR$/Normal Data/my_main_data/MakeGramFromData.py" />
         <option value="$PROJECT_DIR$/Normal Data/my_main_data/MakeNormalData.py" />
+        <option value="$PROJECT_DIR$/Normal Data/my_main_data/MakeAGivenFolderNormal.py" />
+        <option value="$PROJECT_DIR$/my_main_data/Unigram.py" />
+        <option value="$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py" />
+        <option value="$PROJECT_DIR$/my_main_data/GramSingleWriter.py" />
+        <option value="$PROJECT_DIR$/my_main_data/MakeNormalData.py" />
+        <option value="$PROJECT_DIR$/my_main_data/TextFiltering.py" />
       </list>
     </option>
   </component>
@@ -200,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,24 +257,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Not Important" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stylogenetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stylogenetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Normal Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="my_main_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,15 +270,10 @@
               <option name="myItemId" value="Stylogenetics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Normal Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,67 +285,87 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OleeAcmLab\Documents\Project 300\Stylogenetics\Stylogenetics" />
+      <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Normal Data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\OleeAcmLab\Documents\Project 300\Stylogenetics\Stylogenetics" />
+      <recent name="C:\Users\OleeAcmLab\Documents\Project 300\Stylogenetics\Stylogenetics\Normal Data\my_main_data" />
       <recent name="C:\Users\Tahmidolee\Documents\Project 300\Stylogenetics\Stylogenetics\Normal Data\my_main_data" />
       <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Not Important" />
       <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Raw Data and Crawler" />
-      <recent name="C:\Users\OleeAcmLab\Dropbox\python" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Normal Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MakeNormalData">
-    <configuration default="false" name="MakeNormalData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MakeNormalData (1)">
+    <configuration default="false" name="MakeAGivenFolderNormal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Normal Data/my_main_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Normal Data/my_main_data/MakeNormalData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="my_corpus (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unigram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Normal Data/my_main_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Normal Data/my_main_data/my_corpus.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Tahmidolee\Documents\Project 300\Stylogenetics\Stylogenetics\my_main_data\GramSingleWriter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="nir_shondhani_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="MakeNormalData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Dropbox/SHARED (1)/OLEE&amp;MMRS/python/LearningProject/Raw Data and Crawler" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearningProject" />
+      <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Dropbox/SHARED (1)/OLEE&amp;MMRS/python/LearningProject/Raw Data and Crawler/nir_shondhani_crawler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/MakeNormalData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GramSingleWriter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stylogenetics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/GramSingleWriter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -341,31 +377,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Normal Data/my_main_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Normal Data/my_main_data/TextFiltering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="matplotlibTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Not Important" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stylogenetics" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Not Important/matplotlibTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/TextFiltering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -579,19 +597,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MakeNormalData" />
-      <item index="1" class="java.lang.String" itemvalue="Python.my_corpus (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nir_shondhani_crawler" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TextFiltering" />
-      <item index="4" class="java.lang.String" itemvalue="Python.matplotlibTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MakeAGivenFolderNormal" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Unigram" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MakeNormalData (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GramSingleWriter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TextFiltering" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MakeNormalData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MakeNormalData (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.TextFiltering" />
-        <item index="2" class="java.lang.String" itemvalue="Python.matplotlibTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.nir_shondhani_crawler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.my_corpus (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GramSingleWriter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MakeAGivenFolderNormal" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Unigram" />
       </list>
     </recent_temporary>
   </component>
@@ -619,10 +637,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37275606" sideWeight="0.24322917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34318554" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34154353" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -632,6 +649,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -652,15 +670,18 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/my_main_data/MakeNormalData.py</url>
+          <line>159</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Not Important/dictionaries.py" />
-    <entry file="file://$PROJECT_DIR$/data1.txt" />
-    <entry file="file://$PROJECT_DIR$/data3.txt" />
-    <entry file="file://$PROJECT_DIR$/data2.txt" />
-    <entry file="file://$PROJECT_DIR$/data4.txt" />
     <entry file="file://$PROJECT_DIR$/data7.txt" />
     <entry file="file://$PROJECT_DIR$/data9.txt" />
     <entry file="file://$PROJECT_DIR$/datafile.txt" />
@@ -737,16 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/my_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Not Important/matplotlibTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -758,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
           <caret line="1375" column="8" selection-start-line="1375" selection-start-column="8" selection-end-line="1375" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,24 +776,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="464" column="4" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/TextFiltering.py">
+    <entry file="file://$PROJECT_DIR$/MakeGramFromData.py" />
+    <entry file="file://$PROJECT_DIR$/MakeGramFromData.py" />
+    <entry file="file://$PROJECT_DIR$/my_main_data/my_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Normal Data/my_main_data/MakeNormalData.py">
+    <entry file="file://$PROJECT_DIR$/my_main_data/MakeGramFromData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="-2575">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/GramSingleWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#479#1177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/TextFiltering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/MakeNormalData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding>
+            <element signature="e#1829#2641#0" expanded="false" />
+            <element signature="e#2682#2795#0" expanded="false" />
+            <element signature="e#2819#3275#0" expanded="false" />
+            <element signature="e#3314#4400#0" expanded="false" />
+            <element signature="e#5401#6450#0" expanded="false" />
           </folding>
         </state>
       </provider>
