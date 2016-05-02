@@ -35,6 +35,9 @@ def getWordList(text):
     print(tokens[:100]);
     return tokens
 
+def isWordEnglish(word):
+    str = "qwertyuiopppasdfghjkl;zxcvbnm,.963852741`=-qwertyuiopasdfghjklzxcvbnm,.QWERTUIOPASDFGHJKLZXCVBNM,"
+
 
 
 def makeRootFolderNormal():
@@ -83,11 +86,12 @@ def unigramAll():
 
         keys = fdist.most_common(len(fdist.keys()))
         dataFreq = "";
+
         for key in keys:
             dataFreq+= str(key[0])+" , "+str(key[1])+"\n";
 
         make_sure_path_exists(to_save_folder+folder)
-        writer = open(to_save_folder+folder+"/"+folder+"[unigram].csv","w+",encoding="utf8");
+        writer = open(to_save_folder+folder+"/"+folder+"[unigram_Freq].csv","w+",encoding="utf8");
         writer.write(dataFreq);
         fw.close();
         writer.close();
@@ -123,9 +127,11 @@ def makeGramForAll(rootFolder):
     for folder in folder_list:
         if folder.find(".") != -1:
             continue;
-        file = os.listdir(rootFolder+"/"+folder+"/");
-        fw = open(rootFolder+"/"+folder+"/"+file[0],"r",encoding="utf8");
-        allList[file[0]] = fw.read();
+        files = os.listdir(rootFolder+"/"+folder+"/");
+        for file in files:
+            if file.find("_Freq")!=-1:
+                fw = open(rootFolder+"/"+folder+"/"+file,"r",encoding="utf8");
+                allList[file] = fw.read();
 
     allgramFile = "";
     keys = allList.keys();
@@ -182,7 +188,7 @@ def BigramAll():
             dataFreq+= str(key[0])+" , "+str(key[1])+"\n";
 
         make_sure_path_exists(to_save_folder+folder)
-        writer = open(to_save_folder+folder+"/"+folder+"[bigram].csv","w+",encoding="utf8");
+        writer = open(to_save_folder+folder+"/"+folder+"[bigram_Freq].csv","w+",encoding="utf8");
         writer.write(dataFreq);
         fw.close();
         writer.close();
@@ -242,7 +248,7 @@ def ngram4All():
         for key in keys:
             dataFreq += str(key[0])+ "," + str(key[1]) + "\n"
         make_sure_path_exists(to_save_folder + folder)
-        writer = open(to_save_folder + folder + "/" + folder + "[Ngram_4].csv", "w+", encoding="utf8")
+        writer = open(to_save_folder + folder + "/" + folder + "[Ngram_4_Freq].csv", "w+", encoding="utf8")
         writer.write(dataFreq)
         fw.close()
         writer.close()
@@ -251,7 +257,6 @@ def ngram4All():
 
 
 makeRootFolderNormal()
-
 unigramAll();
 BigramAll();
 trigramAll();
