@@ -56,14 +56,10 @@ def UniqueWords():
                 #print(writer + " " + uniqueWordByWriter);
         make_sure_path_exists("UniqueWords[.]/"+writer)
         print("UniqueWords[.]/"+writer)
-        fw = open("./UniqueWords[.]/"+writer+"/"+"UniqueWords.csv","w",encoding="utf8");
+        fw = open("./UniqueWords[.]/"+writer+"/"+writer+"[UniqueWords].csv","w",encoding="utf8");
         fw.write(uniqueWordByWriter);
-        fw = open("./UniqueWords[.]/"+writer+"/UniqueWords_Freq.csv","w",encoding="utf8");
+        fw = open("./UniqueWords[.]/"+writer+"/"+writer+"[UniqueWords_Freq].csv","w",encoding="utf8");
         fw.write(uniqueWordByWriterFreq);
-
-
-
-
 
 
 
