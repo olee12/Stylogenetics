@@ -219,7 +219,7 @@ def trigramAll():
             dataFreq += str(key[0])+ "," + str(key[1]) + "\n";
 
         make_sure_path_exists(to_save_folder + folder)
-        writer = open(to_save_folder + folder + "/" + folder + "[Triram].csv", "w+", encoding="utf8");
+        writer = open(to_save_folder + folder + "/" + folder + "[Triram_Freq].csv", "w+", encoding="utf8");
         writer.write(dataFreq);
         fw.close();
         writer.close();
@@ -256,11 +256,11 @@ def ngram4All():
 
 
 
-makeRootFolderNormal()
-unigramAll();
-BigramAll();
+#makeRootFolderNormal()
+#unigramAll();
+#BigramAll();
 trigramAll();
-ngram4All();
+#ngram4All();
 makeGramForAll("./#Unigram[.]")
 makeGramForAll("./#Bigram[.]")
 makeGramForAll("./#Trigram[.]")
