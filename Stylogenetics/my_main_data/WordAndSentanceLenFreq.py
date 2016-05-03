@@ -73,7 +73,7 @@ def sentanceLenFrequency():
         freq=[]
         for sent in sents:
             sent_len = getSentanceLen(sent);
-            if sent_len==120:
+            if sent_len==147:
                 print(sent);
             if sent_len>0:
                 freq.append(sent_len)
