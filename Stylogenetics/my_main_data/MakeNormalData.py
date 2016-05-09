@@ -255,16 +255,16 @@ def ngram4All():
 
 
 
-
+print(biram.find("−"))
 #makeRootFolderNormal()
 #unigramAll();
 #BigramAll();
-trigramAll();
+#trigramAll();
 #ngram4All();
-makeGramForAll("./#Unigram[.]")
-makeGramForAll("./#Bigram[.]")
-makeGramForAll("./#Trigram[.]")
-makeGramForAll("./#Ngram_4[.]")
+#makeGramForAll("./#Unigram[.]")
+#makeGramForAll("./#Bigram[.]")
+#makeGramForAll("./#Trigram[.]")
+#makeGramForAll("./#Ngram_4[.]")
 
 
 
