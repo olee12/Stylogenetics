@@ -145,7 +145,7 @@ def makeGramForAll(rootFolder):
 
     allgramFile = allgramFile[:len(allgramFile)-1];
     allgramFile+="\n"
-    for i in range(0,50):
+    for i in range(0,300):
         f = 0
         for key in keys:
             print(key +":::"+allList[key][i]);
@@ -255,13 +255,13 @@ def ngram4All():
 
 
 
-print(biram.find("−"))
+#print(biram.find("−"))
 #makeRootFolderNormal()
 #unigramAll();
 #BigramAll();
 #trigramAll();
 #ngram4All();
-#makeGramForAll("./#Unigram[.]")
+makeGramForAll("./#Unigram[.]")
 #makeGramForAll("./#Bigram[.]")
 #makeGramForAll("./#Trigram[.]")
 #makeGramForAll("./#Ngram_4[.]")
