@@ -14,46 +14,47 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearningProject$emon_jubayer_crawler.coverage" NAME="emon_jubayer_crawler Coverage Results" MODIFIED="1461062808145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1460630165244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$MakeAGivenFolderNormal.coverage" NAME="MakeAGivenFolderNormal Coverage Results" MODIFIED="1462185936277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$abu_hena_md_ashraful_islam_crawler.coverage" NAME="abu_hena_md_ashraful_islam_crawler Coverage Results" MODIFIED="1461063223394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$MakeNormalData__1_.coverage" NAME="MakeNormalData (1) Coverage Results" MODIFIED="1462186621244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique.coverage" NAME="writer_wise_unique Coverage Results" MODIFIED="1462187922925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering__1_.coverage" NAME="TextFiltering (1) Coverage Results" MODIFIED="1462187840418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$WordAndSentanceLenFreq.coverage" NAME="WordAndSentanceLenFreq Coverage Results" MODIFIED="1462789201909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$matplotlibTest.coverage" NAME="matplotlibTest Coverage Results" MODIFIED="1462038852551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Not Important" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateSorbonam.coverage" NAME="CalculateSorbonam Coverage Results" MODIFIED="1462217512015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$my_corpus.coverage" NAME="my_corpus Coverage Results" MODIFIED="1461947612887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
+    <SUITE FILE_PATH="coverage/LearningProject$mahi_rahi_crawler.coverage" NAME="mahi_rahi_crawler Coverage Results" MODIFIED="1461063939771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$Freq_one_wrod.coverage" NAME="Freq_one_wrod Coverage Results" MODIFIED="1463063244727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$shada_moner_manush.coverage" NAME="shada_moner_manush Coverage Results" MODIFIED="1461063353089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique__1_.coverage" NAME="writer_wise_unique (1) Coverage Results" MODIFIED="1462172667023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$POS_tagger.coverage" NAME="POS_tagger Coverage Results" MODIFIED="1461856738065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
-    <SUITE FILE_PATH="coverage/LearningProject$hasan_mahbub.coverage" NAME="hasan_mahbub Coverage Results" MODIFIED="1461063073043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateAbboy.coverage" NAME="CalculateAbboy Coverage Results" MODIFIED="1462218033710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$md_maksudur_rahman_crawler.coverage" NAME="md_maksudur_rahman_crawler Coverage Results" MODIFIED="1461063442583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1461918201150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$GramSingleWriter.coverage" NAME="GramSingleWriter Coverage Results" MODIFIED="1462139881468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$somewhereinblogCrawler.coverage" NAME="somewhereinblogCrawler Coverage Results" MODIFIED="1460721493631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$test.coverage" NAME="test Coverage Results" MODIFIED="1461604644026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateSorbonam__1_.coverage" NAME="CalculateSorbonam (1) Coverage Results" MODIFIED="1462218028380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1460731434764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$makedocfromhtml__1_.coverage" NAME="makedocfromhtml (1) Coverage Results" MODIFIED="1460741980508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$othithi_lekhok_crawler.coverage" NAME="othithi_lekhok_crawler Coverage Results" MODIFIED="1461152417643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$mzi_crawler.coverage" NAME="mzi_crawler Coverage Results" MODIFIED="1461086682481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$nijhum_mojumder_crawler.coverage" NAME="nijhum_mojumder_crawler Coverage Results" MODIFIED="1461075685396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$MakeNormalData.coverage" NAME="MakeNormalData Coverage Results" MODIFIED="1462789177761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$wasim_faruk_crawler.coverage" NAME="wasim_faruk_crawler Coverage Results" MODIFIED="1461076915858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering.coverage" NAME="TextFiltering Coverage Results" MODIFIED="1462186615708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$mzi_crawler.coverage" NAME="mzi_crawler Coverage Results" MODIFIED="1461086682481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stylogenetics$my_corpus__1_.coverage" NAME="my_corpus (1) Coverage Results" MODIFIED="1461947920903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$webcrawler.coverage" NAME="webcrawler Coverage Results" MODIFIED="1460701809188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering.coverage" NAME="TextFiltering Coverage Results" MODIFIED="1462186615708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$mahi_rahi_crawler.coverage" NAME="mahi_rahi_crawler Coverage Results" MODIFIED="1461063939771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$shocheton_happy.coverage" NAME="shocheton_happy Coverage Results" MODIFIED="1461077147765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$downloadCsv.coverage" NAME="downloadCsv Coverage Results" MODIFIED="1461502569720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$md_maksudur_rahman_crawler.coverage" NAME="md_maksudur_rahman_crawler Coverage Results" MODIFIED="1461063442583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$WordAndSentanceLenFreq.coverage" NAME="WordAndSentanceLenFreq Coverage Results" MODIFIED="1463049408179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$emon_jubayer_crawler.coverage" NAME="emon_jubayer_crawler Coverage Results" MODIFIED="1461062808145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateSorbonam__1_.coverage" NAME="CalculateSorbonam (1) Coverage Results" MODIFIED="1462218028380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique.coverage" NAME="writer_wise_unique Coverage Results" MODIFIED="1462187922925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$matplotlibTest.coverage" NAME="matplotlibTest Coverage Results" MODIFIED="1462038852551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Not Important" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1461918201150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$my_corpus.coverage" NAME="my_corpus Coverage Results" MODIFIED="1461947612887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering__1_.coverage" NAME="TextFiltering (1) Coverage Results" MODIFIED="1462187840418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateAbboy.coverage" NAME="CalculateAbboy Coverage Results" MODIFIED="1462218033710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/Stylogenetics$Unigram.coverage" NAME="Unigram Coverage Results" MODIFIED="1462135567982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
-    <SUITE FILE_PATH="coverage/LearningProject$md_zahirul_islam_crawler.coverage" NAME="md_zahirul_islam_crawler Coverage Results" MODIFIED="1461063603110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearningProject$test.coverage" NAME="test Coverage Results" MODIFIED="1460728586426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$somewhereinblogCrawler.coverage" NAME="somewhereinblogCrawler Coverage Results" MODIFIED="1460721493631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$makedocfromhtml.coverage" NAME="makedocfromhtml Coverage Results" MODIFIED="1460733321525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$CalculateSorbonam.coverage" NAME="CalculateSorbonam Coverage Results" MODIFIED="1462217512015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$hasan_mahbub.coverage" NAME="hasan_mahbub Coverage Results" MODIFIED="1461063073043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearningProject$kandari_athorbo_crawler.coverage" NAME="kandari_athorbo_crawler Coverage Results" MODIFIED="1461068852960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$abu_hena_md_ashraful_islam_crawler.coverage" NAME="abu_hena_md_ashraful_islam_crawler Coverage Results" MODIFIED="1461063223394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$GramSingleWriter.coverage" NAME="GramSingleWriter Coverage Results" MODIFIED="1462139881468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$nijhum_mojumder_crawler.coverage" NAME="nijhum_mojumder_crawler Coverage Results" MODIFIED="1461075685396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$MakeAGivenFolderNormal.coverage" NAME="MakeAGivenFolderNormal Coverage Results" MODIFIED="1462185936277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$makedocfromhtml__1_.coverage" NAME="makedocfromhtml (1) Coverage Results" MODIFIED="1460741980508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$test.coverage" NAME="test Coverage Results" MODIFIED="1461604644026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
+    <SUITE FILE_PATH="coverage/LearningProject$shocheton_happy.coverage" NAME="shocheton_happy Coverage Results" MODIFIED="1461077147765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$MakeNormalData__1_.coverage" NAME="MakeNormalData (1) Coverage Results" MODIFIED="1462186621244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$md_zahirul_islam_crawler.coverage" NAME="md_zahirul_islam_crawler Coverage Results" MODIFIED="1461063603110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1460630165244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique__1_.coverage" NAME="writer_wise_unique (1) Coverage Results" MODIFIED="1462172667023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
+    <SUITE FILE_PATH="coverage/LearningProject$test.coverage" NAME="test Coverage Results" MODIFIED="1460728586426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1460731434764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearningProject$downloadCsv.coverage" NAME="downloadCsv Coverage Results" MODIFIED="1461502569720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$MakeNormalData.coverage" NAME="MakeNormalData Coverage Results" MODIFIED="1463050296841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/LearningProject$othithi_lekhok_crawler.coverage" NAME="othithi_lekhok_crawler Coverage Results" MODIFIED="1461152417643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$POS_tagger.coverage" NAME="POS_tagger Coverage Results" MODIFIED="1461856738065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Normal Data" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -67,9 +68,10 @@
       <file leaf-file-name="MakeNormalData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_main_data/MakeNormalData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3454">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="161" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding>
+                <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#2824#2937#0" expanded="false" />
                 <element signature="e#2961#3417#0" expanded="false" />
               </folding>
@@ -77,78 +79,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeGramFromData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/MakeGramFromData.py">
+      <file leaf-file-name="Freq_one_wrod.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_main_data/Freq_one_wrod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="154" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordAndSentanceLenFreq.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="writer_wise_unique.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/writer_wise_unique.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFiltering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Raw Data/Top/TextFiltering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GramSingleWriter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/GramSingleWriter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#479#1177#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeAGivenFolderNormal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_corpus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/my_corpus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/writer1.lxml" />
         <option value="$PROJECT_DIR$/makedocfromhtml.py" />
@@ -216,8 +152,9 @@
         <option value="$PROJECT_DIR$/CalculateSorbonam.py" />
         <option value="$PROJECT_DIR$/my_main_data/CalculateSorbonam.py" />
         <option value="$PROJECT_DIR$/my_main_data/CalculateAbboy.py" />
-        <option value="$PROJECT_DIR$/my_main_data/MakeNormalData.py" />
         <option value="$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py" />
+        <option value="$PROJECT_DIR$/my_main_data/MakeNormalData.py" />
+        <option value="$PROJECT_DIR$/my_main_data/Freq_one_wrod.py" />
       </list>
     </option>
   </component>
@@ -230,8 +167,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,7 +274,7 @@
       <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Not Important" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WordAndSentanceLenFreq">
+  <component name="RunManager" selected="Python.Freq_one_wrod">
     <configuration default="false" name="CalculateAbboy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,24 +289,6 @@
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/CalculateAbboy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalculateSorbonam" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stylogenetics" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Project 300\Stylogenetics\Stylogenetics\my_main_data\CalculateSorbonam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -424,6 +343,24 @@
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/MakeNormalData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Freq_one_wrod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stylogenetics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/Freq_one_wrod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -638,18 +575,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.CalculateAbboy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CalculateSorbonam" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CalculateSorbonam (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
-      <item index="4" class="java.lang.String" itemvalue="Python.MakeNormalData" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CalculateSorbonam (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
+      <item index="3" class="java.lang.String" itemvalue="Python.MakeNormalData" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Freq_one_wrod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Freq_one_wrod" />
         <item index="1" class="java.lang.String" itemvalue="Python.MakeNormalData" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CalculateAbboy" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CalculateSorbonam (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CalculateSorbonam" />
+        <item index="2" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CalculateAbboy" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CalculateSorbonam (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -670,20 +607,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37275606" sideWeight="0.24322917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2662116" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" x="171" y="399" width="997" height="194" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17758985" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" x="171" y="399" width="997" height="194" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39737275" sideWeight="0.49475262" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3964059" sideWeight="0.49475262" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -716,7 +653,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shada_moner_manush.html" />
     <entry file="file://$PROJECT_DIR$/abu_hena_md_ashraful_islam.html" />
     <entry file="file://$PROJECT_DIR$/hasan_mahbub.html" />
     <entry file="file://$PROJECT_DIR$/emon_jubayer_crawler.py" />
@@ -803,16 +739,6 @@
     <entry file="file://$PROJECT_DIR$/MakeGramFromData.py" />
     <entry file="file://$PROJECT_DIR$/MakeGramFromData.py" />
     <entry file="file://$PROJECT_DIR$/Raw Data/Top/writer_wise_unique.py" />
-    <entry file="file://$PROJECT_DIR$/my_main_data/my_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/Lib/site-packages/nltk/tokenize/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -820,73 +746,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Raw Data/Top/TextFiltering.py">
+    <entry file="file://$PROJECT_DIR$/my_main_data/CalculateSorbonam.py" />
+    <entry file="file://$PROJECT_DIR$/my_main_data/CalculateAbboy.py" />
+    <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="578">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/my_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_main_data/TextFiltering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="170">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_main_data/GramSingleWriter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#479#1177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_main_data/CalculateSorbonam.py" />
-    <entry file="file://$PROJECT_DIR$/my_main_data/CalculateAbboy.py" />
-    <entry file="file://$PROJECT_DIR$/my_main_data/MakeAGivenFolderNormal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_main_data/MakeGramFromData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="154" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        <state relative-caret-position="2193">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/writer_wise_unique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Raw Data/Top/TextFiltering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/GramSingleWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+            <element signature="e#479#1177#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_main_data/MakeNormalData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3454">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="161" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
+            <element signature="e#0#9#0" expanded="true" />
             <element signature="e#2824#2937#0" expanded="false" />
             <element signature="e#2961#3417#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_main_data/writer_wise_unique.py">
+    <entry file="file://$PROJECT_DIR$/my_main_data/Freq_one_wrod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
