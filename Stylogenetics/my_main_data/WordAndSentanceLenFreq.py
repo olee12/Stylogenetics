@@ -119,55 +119,65 @@ def wordLenFrequency():
         for key in sorted(keys):
             dataFreq+= str(key[0])+","+str(key[1]) +"\n";
         make_sure_path_exists(to_save_folder + folder)
-        writer = open(to_save_folder + folder + "/" + folder+"[data]"+ "[WordLen_Freq].csv", "w+", encoding="utf8");
+        writer = open(to_save_folder + folder + "/" + folder+ "[WordLen_Freq].csv", "w+", encoding="utf8");
         writer.write(dataFreq);
         fw.close();
         writer.close();
 
 
+
+def get_dict(freq):
+    mydic = dict();
+    for f in freq:
+        ara = f.split(",");
+        if len(ara)<2:
+            continue;
+        key = ara[0];
+        val = ara[1];
+        mydic[key] = val;
+
+    return mydic;
+
+
 def allSentanceLenFreq(rootFolder):
     allList = dict();
+    myset = set();
     to_save_folder = rootFolder
     folder_list = os.listdir(rootFolder);
     for folder in folder_list:
-        print("........." + " " + folder)
         if folder.find(".") != -1:
             continue;
         files = os.listdir(rootFolder + "/" + folder + "/");
         for file in files:
-            if file.find("data") == -1:
-                continue;
             fw = open(rootFolder + "/" + folder + "/" + file, "r", encoding="utf8");
-            allList[file] = fw.read();
+            raw_text = fw.read();
+            freq = raw_text.split("\n");
+            freq = freq[1:];
+            allList[folder] = get_dict(freq);
+            for f in freq:
+                ara = f.split(",");
+                if len(ara)==2:
+                    myset.add(int(f.split(",")[0]))
 
-    allgramFile = "";
+    allgramFile = ",";
     keys = allList.keys();
+    keys = sorted(keys)
     max_sz = 0;
     for key in sorted(keys):
-        allList[key] = str(allList[key]).split("\n");
-        max_sz = max(max_sz, len(allList[key]));
-        key = key[:key.find("[")];
         allgramFile += key;
         allgramFile += ","
-        allgramFile += "value";
-        allgramFile += ",";
 
     allgramFile = allgramFile[:len(allgramFile) - 1];
     allgramFile += "\n"
-    for i in range(0, max_sz - 2):
-        f = 0
-        for key in sorted(keys):
-
-            if f != 0:
-                allgramFile += ",";
-            f = 1;
-            if i >= len(allList[key])-1:
-                allgramFile+="---,---"
-                continue;
-            print(key + ":::" + allList[key][i]);
-            allgramFile += allList[key][i];
-        print("\n")
-        allgramFile += "\n";
+    print(allgramFile);
+    for slen in sorted(myset):
+        allgramFile += str(slen);
+        for key in keys:
+            dic = dict(allList[key]);
+            val = dic.get(str(slen), "0");
+            allgramFile += ","
+            allgramFile += val;
+        allgramFile+="\n"
 
     fw = open(rootFolder + "/" + "All" + rootFolder[2:] + ".csv", "w", encoding="utf8");
     fw.write(allgramFile);
@@ -175,10 +185,11 @@ def allSentanceLenFreq(rootFolder):
 
 
 #sentanceLenFrequency();
-allSentanceLenFreq("#WordLenFreq[.]");
-
-#sentanceLenFrequency();
+allSentanceLenFreq("#SentanceLenFreq[.]");
 #wordLenFrequency();
+allSentanceLenFreq("#WordLenFreq[.]");
+#sentanceLenFrequency();
+
 #print(" দাড়িয়ে "+str(getWordLen("দাড়িয়ে")))
 #print(alphabet_list.find("য়"));
 #print(alphabet_list.find("ড়"));
