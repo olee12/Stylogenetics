@@ -88,7 +88,7 @@ def unigramAll():
         dataFreq = "";
 
         for key in keys:
-            dataFreq+= str(key[0])+" , "+str(key[1])+"\n";
+            dataFreq+= str(key[0]).strip()+","+str(key[1]).strip()+"\n";
 
         make_sure_path_exists(to_save_folder+folder)
         writer = open(to_save_folder+folder+"/"+folder+"[unigram_Freq].csv","w+",encoding="utf8");
@@ -131,13 +131,12 @@ def makeGramForAll(rootFolder):
         for file in files:
             if file.find("_Freq")!=-1:
                 fw = open(rootFolder+"/"+folder+"/"+file,"r",encoding="utf8");
-                allList[file] = fw.read();
+                allList[folder] = fw.read();
 
     allgramFile = "";
-    keys = allList.keys();
+    keys = sorted(allList.keys());
     for key in keys :
         allList[key] = str(allList[key]).split("\n");
-        key = key[:key.find("[")];
         allgramFile+=key;
         allgramFile+=","
         allgramFile+="value";
@@ -152,7 +151,7 @@ def makeGramForAll(rootFolder):
             if f!=0:
                 allgramFile+=",";
             f = 1;
-            allgramFile+=allList[key][i];
+            allgramFile+=allList[key][i].strip();
         print("\n")
         allgramFile+="\n";
 
@@ -185,7 +184,7 @@ def BigramAll():
         keys = fdist.most_common(len(fdist.keys()))
         dataFreq = "";
         for key in keys:
-            dataFreq+= str(key[0])+" , "+str(key[1])+"\n";
+            dataFreq+= str(key[0]).strip()+","+str(key[1]).strip()+"\n";
 
         make_sure_path_exists(to_save_folder+folder)
         writer = open(to_save_folder+folder+"/"+folder+"[bigram_Freq].csv","w+",encoding="utf8");
@@ -216,7 +215,7 @@ def trigramAll():
         keys = fdist.most_common(len(fdist.keys()))
         dataFreq = "";
         for key in keys:
-            dataFreq += str(key[0])+ "," + str(key[1]) + "\n";
+            dataFreq += str(key[0]).strip()+ "," + str(key[1]).strip() + "\n";
 
         make_sure_path_exists(to_save_folder + folder)
         writer = open(to_save_folder + folder + "/" + folder + "[Triram_Freq].csv", "w+", encoding="utf8");
@@ -257,12 +256,12 @@ def ngram4All():
 
 #print(biram.find("−"))
 #makeRootFolderNormal()
-#unigramAll();
-#BigramAll();
+unigramAll();
+BigramAll();
 #trigramAll();
 #ngram4All();
 makeGramForAll("./#Unigram[.]")
-#makeGramForAll("./#Bigram[.]")
+makeGramForAll("./#Bigram[.]")
 #makeGramForAll("./#Trigram[.]")
 #makeGramForAll("./#Ngram_4[.]")
 

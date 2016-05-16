@@ -53,7 +53,7 @@ def Freq_one_word(rootFolder):
             dic = dict(allList[key]);
             val = dic.get(word,"0");
             allgramFile+=","
-            allgramFile+=val;
+            allgramFile+=val.strip();
 
         allgramFile+="\n";
     fw = open(rootFolder+"/"+"Freq_one_word"+".csv","w",encoding="utf8");

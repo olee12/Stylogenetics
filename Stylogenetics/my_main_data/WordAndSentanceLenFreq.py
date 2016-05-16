@@ -184,7 +184,7 @@ def allSentanceLenFreq(rootFolder):
     fw.close();
 
 
-#sentanceLenFrequency();
+sentanceLenFrequency();
 allSentanceLenFreq("#SentanceLenFreq[.]");
 #wordLenFrequency();
 allSentanceLenFreq("#WordLenFreq[.]");

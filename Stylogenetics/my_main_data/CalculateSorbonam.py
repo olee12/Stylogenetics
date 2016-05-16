@@ -30,6 +30,7 @@ def calculateSorbonam():
                 Sorbonam = Sorbonam + "\n" + Sorbonam1
                 Sorbonam = Sorbonam.replace("*", "")
                 Sorbonam = Sorbonam.split("\n")
+                Sorbonam = [s.strip() for s in Sorbonam];
 
                 # print(Sorbonam)
                 mapper = dict()

@@ -33,11 +33,13 @@ def Freq_one_word(rootFolder):
                 fw = open(rootFolder+"/"+folder+"/"+file,"r",encoding="utf8");
                 raw_text = fw.read();
                 word_freq = raw_text.split("\n");
+                word_freq = word_freq[:len(word_freq)-1];
                 print("********* "+folder+ " *********");
-                word_freq = word_freq[:50]
+                word_freq = word_freq[:80]
                 allList[folder] = getDect(word_freq);
 
-                for i in range(0,50):
+                for i in range(0,70):
+                    print(word_freq[i]);
                     word_set.add(word_freq[i].split(",")[0]);
 
 

@@ -37,6 +37,8 @@ def calculateObboy():
                 tokens = word_tokenize(reader)
                 for words in obboy:
                     mapper[words] = tokens.count(words)
+                if writemItem=="Tareque Anu":
+                    print(fileItem+" "+str(mapper["ও"]))
                 # print(mapper.keys())
                 # print(mapper.values())
                 lista = []
