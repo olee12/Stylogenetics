@@ -31,9 +31,19 @@ def formatText(text):
 
 
 
+def isEnglish(word):
+    for char in word:
+        if char>='a' and char<='z':
+            return True;
+        elif char >= "A" and char <= "Z":
+            return True;
+    return False;
+
+
+
 def getWordList(text):
     tokens = word_tokenize(text);
-    print(tokens[:100]);
+    #print(tokens[:100]);
     return tokens
 
 def isWordEnglish(word):
@@ -51,15 +61,20 @@ def getDect(freq):
 
 def makeWritersVectors(flag):
     if flag==1:
-        fw = open("./train data/train_data.csv","r",encoding="utf8");
-    else:
+        fw = open("./train data/Common_word_changed_freq.csv","r",encoding="utf8");
+    elif flag==0:
         fw = open("./train data/Filtered_one_word.csv","r",encoding="utf8");
-    lines = fw.read().split("\n");
+    elif flag==2:
+        fw = open("./train data/Freq_one_by_four_feature_words Phase 1.csv","r",encoding="utf8");
+    elif flag==3:
+        fw = open("./train data/Freq_two_word.csv", "r", encoding="utf8");
 
+    lines = fw.read().split("\n");
+    fw.close();
     head = lines[0];
     lines = lines[1:]
     writers=str(head[head.find(",")+1:]).split(",");
-    print(writers);
+    #print(writers);
     allwriter = dict();
     for wri in writers:
         allwriter[wri] = [];
@@ -75,6 +90,7 @@ def makeWritersVectors(flag):
         #print(data);
         cnt = 0;
         for wri in writers:
+            #print(wri);
             allwriter[wri].append((word,int(data[cnt])));
             cnt+=1;
 
@@ -82,21 +98,45 @@ def makeWritersVectors(flag):
         #print(allwriter[wri][:10]);
         allwriter[wri] = getDect(allwriter[wri]);
         #print(wri+" "+str(allwriter[wri]));
-
+    #print(" ");
     return allwriter;
 
 
-def getTestVector():
+def getTestVector_one_word():
     fw = open("test_data.txt","r",encoding="utf8");
     raw_text = fw.read();
+    fw.close();
     formated_text = formatText(raw_text);
+    #print(formated_text)
     words = getWordList(formated_text);
     words = [word for word in words if len(word)>1];
+    words = [word for word in words if isEnglish(word)==False];
 
     vectorB = dict();
     for word in words:
         vectorB[word] = 0;
     for word in words:
+        vectorB[word] = vectorB[word]+1;
+
+    return vectorB;
+
+
+def getTestVector_two_word():
+    fw = open("test_data.txt","r",encoding="utf8");
+    raw_text = fw.read();
+    fw.close();
+    formated_text = formatText(raw_text);
+    #print(formated_text)
+    words = getWordList(formated_text);
+    words = [word for word in words if len(word)>1];
+    words = [word for word in words if isEnglish(word)==False];
+    myBigram = [];
+    for i in range(0,len(words)-1):
+        myBigram.append(words[i]+" "+words[i+1])
+    vectorB = dict();
+    for word in myBigram:
+        vectorB[word] = 0;
+    for word in myBigram:
         vectorB[word] = vectorB[word]+1;
 
     return vectorB;
@@ -118,32 +158,147 @@ def dot(vecA,vecB):
         downa+= (vecA[key]*vecA[key]);
     for key in keysA:
         vb = vecB.get(key,0);
+        #print(key+" "+str(vb));
         downb += (vb * vb);
     downa = math.sqrt(downa);
     downb = math.sqrt(downb);
+    if downa==0 or downb==0:
+        return 100;
     #print(up,downa,downb)
+    #print(downb)
+    #print(downa);
     return math.acos(up / (downb*downa))*180/math.pi;
 
 
 
 
 
-def cosine():
-    for flag in range(0,2):
-        vecB = getTestVector();
+def cosine(writer):
+    tareq = [];
+    for flag in range(0,3):
+        vecB = getTestVector_one_word();
         allwriter = makeWritersVectors(flag);
         keys = allwriter.keys();
         keys = sorted(keys);
-
+        result = dict();
         for wri in keys:
             vecA = allwriter[wri];
             res = dot(vecA,vecB);
-            print(wri +" match "+str(res))
-        print("")
+            result[wri] = res;
+            #print(wri +" match "+str(res))
+        name = "";
+        min = 10000;
+        for wri in keys:
+            if min>result[wri]:
+                name = wri;
+                min = result[wri];
+        #print("\t\t"+name+" : "+str(min));
+        tareq.append(name);
 
-    return ;
+    #this is for bigram:
+    for flag in range(3, 4):
+        vecB = getTestVector_two_word();
+        allwriter = makeWritersVectors(flag);
+        keys = allwriter.keys();
+        keys = sorted(keys);
+        result = dict();
+        for wri in keys:
+            vecA = allwriter[wri];
+            res = dot(vecA, vecB);
+            result[wri] = res;
+            # print(wri +" match "+str(res))
+        name = "";
+        min = 10000;
+        for wri in keys:
+            if min > result[wri]:
+                name = wri;
+                min = result[wri];
+        #print("\t\t"+name+" : "+str(min));
+        tareq.append(name);
+
+    return tareq.count(writer);
 
 
-#makeWritersVectors();
-cosine()
 
+def doItForAll():
+    # makeWritersVectors();
+    allresult = "Writer,4 error,3 error,2 error,1 error,4-tot,3-tot,2-tot,1-tot\n";
+    dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\Raw Data\\Top\\";
+    folders = os.listdir(dir);
+    for writer in folders:
+        if writer.find(".") != -1:
+            continue;
+        data_path = dir + writer + "\\";
+        files = os.listdir(data_path);
+        cnt = 0;
+        sum = 0;
+        error_list = [0, 0, 0, 0,0];
+        for file in files:
+            fw = open(dir + writer + "\\" + file, "r", encoding="utf8");
+            ft = open("test_data.txt", "w", encoding="utf8");
+            doc = fw.read();
+            if len(getWordList(formatText(doc))) < 500:
+                continue;
+            ft.write(doc);
+            ft.close();
+            fw.close();
+            # print(file);
+            flag = cosine(writer)
+            # print(flag);
+            if flag < 3:
+                error_list[3] += 1;
+            if flag < 2:
+                print("2 " + file);
+                error_list[2] += 1;
+            if flag < 1:
+                error_list[1] += 1;
+            if flag<4:
+                error_list[4]+=1;
+            sum += 1
+
+
+        print("\n\nWriter = " + writer);
+        print("\nerror 1: ");
+        print((error_list[1]) / sum * 100);
+        print(error_list[1]);
+
+        print("\nerror 2: ");
+        print((error_list[2]) / sum * 100);
+        print(error_list[2]);
+
+        print("\nerror 3: ");
+        print((error_list[3]) / sum * 100);
+        print(error_list[3]);
+
+        print("\nerror 4: ");
+        print((error_list[4]) / sum * 100);
+        print(error_list[4]);
+        print(sum)
+
+        allresult += writer;
+        allresult += ",";
+        allresult += str((error_list[4]) / sum * 100);
+        allresult += ",";
+        allresult += str((error_list[3]) / sum * 100);
+        allresult += ",";
+        allresult += str((error_list[2]) / sum * 100);
+        allresult += ",";
+        allresult += str((error_list[1]) / sum * 100);
+        allresult += ",";
+        allresult += (str(error_list[4]) + "-" + str(sum));
+        allresult += ",";
+        allresult += (str(error_list[3]) + "-" + str(sum));
+        allresult += ",";
+        allresult += (str(error_list[2]) + "-" + str(sum));
+        allresult += ",";
+        allresult += (str(error_list[1]) + "-" + str(sum));
+        allresult += "\n";
+
+    rw = open("result.csv", "w", encoding="utf8");
+    rw.write(allresult);
+    print("");
+
+
+
+print(cosine("MZI"));
+doItForAll();

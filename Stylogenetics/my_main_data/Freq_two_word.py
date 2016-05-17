@@ -4,6 +4,13 @@ import nltk;
 from nltk.probability import FreqDist;
 import errno
 
+def isEnglish(word):
+    for char in word:
+        if char>='a' and char<='z':
+            return False;
+        elif char >= "A" and char <= "Z":
+            return False;
+    return True;
 
 def getDect(word_list):
     word_dect = dict();
@@ -19,7 +26,7 @@ def getDect(word_list):
 
     return word_dect;
 
-def Freq_one_word(rootFolder):
+def Freq_two_word(rootFolder):
     word_set = set()
     allList = dict();
     to_save_folder = rootFolder
@@ -34,11 +41,15 @@ def Freq_one_word(rootFolder):
                 raw_text = fw.read();
                 word_freq = raw_text.split("\n");
                 word_freq = word_freq[:len(word_freq)-1];
+                word_freq = [word for word in word_freq if isEnglish(word)==True]
+                print(word_freq[:50])
                 print("********* "+folder+ " *********");
                 word_freq = word_freq[:80]
                 allList[folder] = getDect(word_freq);
 
                 for i in range(0,70):
+                    if i >= len(word_freq):
+                        break;
                     print(word_freq[i]);
                     word_set.add(word_freq[i].split(",")[0]);
 
@@ -67,4 +78,4 @@ def Freq_one_word(rootFolder):
 
 
 
-Freq_one_word("#Bigram[.]")
+Freq_two_word("#Bigram[.]")
