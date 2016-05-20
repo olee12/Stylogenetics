@@ -215,7 +215,7 @@ def cosine(writer):
                 min = result[wri];
         #print("\t\t"+name+" : "+str(min));
         tareq.append(name);
-
+    print(tareq);
     return tareq.count(writer);
 
 
@@ -223,7 +223,7 @@ def cosine(writer):
 def doItForAll():
     # makeWritersVectors();
     allresult = "Writer,4 error,3 error,2 error,1 error,4-tot,3-tot,2-tot,1-tot\n";
-    dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\Raw Data\\Top\\";
+    dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\test_data\\";
     folders = os.listdir(dir);
     for writer in folders:
         if writer.find(".") != -1:
@@ -247,12 +247,15 @@ def doItForAll():
             # print(flag);
             if flag < 3:
                 error_list[3] += 1;
+                print("error 3 "+file)
             if flag < 2:
-                print("2 " + file);
+                print("error 2 " + file)
                 error_list[2] += 1;
             if flag < 1:
+                print("error 1 " + file)
                 error_list[1] += 1;
             if flag<4:
+                print("error 4 " + file)
                 error_list[4]+=1;
             sum += 1
 
@@ -300,5 +303,5 @@ def doItForAll():
 
 
 
-print(cosine("MZI"));
+#print(cosine("MZI"));
 doItForAll();
