@@ -38,7 +38,7 @@
     <SUITE FILE_PATH="coverage/Stylogenetics$MakeAGivenFolderNormal.coverage" NAME="MakeAGivenFolderNormal Coverage Results" MODIFIED="1462185936277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique.coverage" NAME="writer_wise_unique Coverage Results" MODIFIED="1463238396313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/Stylogenetics$TextFiltering__1_.coverage" NAME="TextFiltering (1) Coverage Results" MODIFIED="1462187840418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
-    <SUITE FILE_PATH="coverage/Stylogenetics$WordAndSentanceLenFreq.coverage" NAME="WordAndSentanceLenFreq Coverage Results" MODIFIED="1463160186136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
+    <SUITE FILE_PATH="coverage/Stylogenetics$WordAndSentanceLenFreq.coverage" NAME="WordAndSentanceLenFreq Coverage Results" MODIFIED="1463992442548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/Stylogenetics$CalculateSorbonam.coverage" NAME="CalculateSorbonam Coverage Results" MODIFIED="1463313754994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_main_data" />
     <SUITE FILE_PATH="coverage/LearningProject$shada_moner_manush.coverage" NAME="shada_moner_manush Coverage Results" MODIFIED="1461063353089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stylogenetics$writer_wise_unique__1_.coverage" NAME="writer_wise_unique (1) Coverage Results" MODIFIED="1462172667023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Raw Data/Top" />
@@ -125,14 +125,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Co_sim_for_filtered_word.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Co_sim_for_filtered_word.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_main_data/#Cosine Similarity[.]/Co_sim_for_filtered_word.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="5544">
               <caret line="257" column="10" selection-start-line="257" selection-start-column="10" selection-end-line="257" selection-end-column="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordAndSentanceLenFreq.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,16 +182,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Freq_sorbonam.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main_data/Freq_sorbonam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,7 +236,6 @@
         <option value="$PROJECT_DIR$/CalculateSorbonam.py" />
         <option value="$PROJECT_DIR$/my_main_data/Doc_wise_sentence_len.py" />
         <option value="$PROJECT_DIR$/my_main_data/Doc_wise_sentence_lenFreq.py" />
-        <option value="$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py" />
         <option value="$PROJECT_DIR$/my_main_data/UniqueWords[.]/Freq_obboy.py" />
         <option value="$PROJECT_DIR$/my_main_data/Freq_obboy.py" />
         <option value="$PROJECT_DIR$/my_main_data/CalculateAbboy.py" />
@@ -251,6 +250,7 @@
         <option value="$PROJECT_DIR$/my_main_data/one_by_four_feature_word.py" />
         <option value="$PROJECT_DIR$/my_main_data/Freq_two_word.py" />
         <option value="$PROJECT_DIR$/my_main_data/#Cosine Similarity[.]/Co_sim_for_filtered_word.py" />
+        <option value="$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py" />
       </list>
     </option>
   </component>
@@ -261,8 +261,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="683" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -398,6 +399,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,25 +424,7 @@
       <recent name="C:\Users\Tahmidolee\Dropbox\SHARED (1)\OLEE&amp;MMRS\python\LearningProject\Normal Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Co_sim_for_filtered_word">
-    <configuration default="false" name="Freq_one_wrod" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stylogenetics" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/Freq_one_wrod.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.WordAndSentanceLenFreq">
     <configuration default="false" name="one_by_four_feature_word (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -509,6 +493,24 @@
       <module name="Stylogenetics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/Freq_two_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WordAndSentanceLenFreq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_main_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stylogenetics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -722,19 +724,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Freq_one_wrod" />
-      <item index="1" class="java.lang.String" itemvalue="Python.one_by_four_feature_word (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Co_sim_for_filtered_word" />
-      <item index="3" class="java.lang.String" itemvalue="Python.filtered_important_word_freq" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Freq_two_word" />
+      <item index="0" class="java.lang.String" itemvalue="Python.one_by_four_feature_word (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Co_sim_for_filtered_word" />
+      <item index="2" class="java.lang.String" itemvalue="Python.filtered_important_word_freq" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Freq_two_word" />
+      <item index="4" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Co_sim_for_filtered_word" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Freq_two_word" />
-        <item index="2" class="java.lang.String" itemvalue="Python.one_by_four_feature_word (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.filtered_important_word_freq" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Freq_one_wrod" />
+        <item index="0" class="java.lang.String" itemvalue="Python.WordAndSentanceLenFreq" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Co_sim_for_filtered_word" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Freq_two_word" />
+        <item index="3" class="java.lang.String" itemvalue="Python.one_by_four_feature_word (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.filtered_important_word_freq" />
       </list>
     </recent_temporary>
   </component>
@@ -755,16 +757,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13615733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37275606" sideWeight="0.24322917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3491228" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" x="171" y="399" width="997" height="194" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3475298" sideWeight="0.75677085" order="2" side_tool="false" content_ui="tabs" x="171" y="399" width="997" height="194" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -913,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_main_data/UniqueWords[.]/Freq_obboy.py" />
     <entry file="file://$PROJECT_DIR$/my_main_data/Doc_wise_sentence_lenFreq.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1049,11 +1043,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_main_data/#Cosine Similarity[.]/Co_sim_for_filtered_word.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="5544">
           <caret line="257" column="10" selection-start-line="257" selection-start-column="10" selection-end-line="257" selection-end-column="10" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main_data/WordAndSentanceLenFreq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
