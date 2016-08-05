@@ -2,9 +2,6 @@ import os
 from nltk.tokenize import word_tokenize
 import nltk;
 from nltk.probability import FreqDist;
-
-
-
 import errno
 import math;
 biram_file = open("./train data/biram.txt","r",encoding="utf8")
@@ -225,6 +222,7 @@ def cosine(writer):
 
 def doItForAll():
     # makeWritersVectors();
+    correct = 0;
     allresult = "Writer,5 error,4 error,3 error,2 error,1 error,5-tot,4-tot,3-tot,2-tot,1-tot\n";
     dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\test_data\\";
     folders = os.listdir(dir);
@@ -248,71 +246,16 @@ def doItForAll():
             # print(file);
             flag = cosine(writer)
             # print(flag);
-            if flag < 3:
-                error_list[3] += 1;
-                print("error 3 "+file)
-            if flag < 2:
-                print("error 2 " + file)
-                error_list[2] += 1;
-            if flag < 1:
-                print("error 1 " + file)
-                error_list[1] += 1;
-            if flag<4:
-                print("error 4 " + file)
-                error_list[4]+=1;
-            if flag < 5:
-                print("error 5 " + file)
-                error_list[5] += 1;
-            sum += 1
-
+            if flag >= 3:
+                cnt+=1;
+            else:
+                print(file);
+            sum+=1;
 
         print("\n\nWriter = " + writer);
-        print("\nerror 1: ");
-        print((error_list[1]) / sum * 100);
-        print(error_list[1]);
+        print("\nsucess 1: ");
+        print(cnt/sum * 100.0);
 
-        print("\nerror 2: ");
-        print((error_list[2]) / sum * 100);
-        print(error_list[2]);
-
-        print("\nerror 3: ");
-        print((error_list[3]) / sum * 100);
-        print(error_list[3]);
-
-        print("\nerror 4: ");
-        print((error_list[4]) / sum * 100);
-        print(error_list[4]);
-
-        print("\nerror 5: ");
-        print((error_list[5]) / sum * 100);
-        print(error_list[5]);
-        print(sum)
-
-        allresult += writer;
-        allresult += ",";
-        allresult += str((error_list[5]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[4]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[3]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[2]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[1]) / sum * 100);
-        allresult += ",";
-        allresult += (str(error_list[5]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[4]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[3]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[2]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[1]) + "-" + str(sum));
-        allresult += "\n";
-
-    rw = open("result55.csv", "w", encoding="utf8");
-    rw.write(allresult);
     print("");
 
 

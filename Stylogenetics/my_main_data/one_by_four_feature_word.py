@@ -42,7 +42,7 @@ def one_by_four_feature_word(rootFolder):
                 word_freq = word_freq[:450];
                 allList[folder] = getDect(word_freq);
 
-                for i in range(0,150):
+                for i in range(0,50):
                     word_set.add(word_freq[i].split(",")[0]);
 
     word_set = sorted(word_set);
@@ -54,7 +54,7 @@ def one_by_four_feature_word(rootFolder):
         for key1 in keys:
             flag = 0;
             freq1 = int(allList[key1].get(word,0));
-            freq1 /= 4;
+            freq1 /= 5;
             for key2 in keys:
                 if key1==key2:
                     continue;
@@ -130,6 +130,5 @@ def Freq_one_by_four_feature_word(rootFolder):
     fw.close();
 
 
-
-Freq_one_by_four_feature_word("#Unigram[.]")
 one_by_four_feature_word("#Unigram[.]")
+Freq_one_by_four_feature_word("#Unigram[.]")

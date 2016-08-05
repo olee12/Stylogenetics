@@ -120,6 +120,6 @@ def Freq_common_word_change_one_word(rootFolder):
     fw.close();
 
 
-#Freq_common_word_change_one_word("#Unigram[.]")
+Freq_common_word_change_one_word("#Unigram[.]")
 
-Freq_filtered_one_word("#Unigram[.]")
+#Freq_filtered_one_word("#Unigram[.]")

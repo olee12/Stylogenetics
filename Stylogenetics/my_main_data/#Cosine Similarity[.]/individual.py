@@ -2,9 +2,6 @@ import os
 from nltk.tokenize import word_tokenize
 import nltk;
 from nltk.probability import FreqDist;
-
-
-
 import errno
 import math;
 biram_file = open("./train data/biram.txt","r",encoding="utf8")
@@ -178,7 +175,7 @@ def dot(vecA,vecB):
 
 def cosine(writer):
     tareq = [];
-    for flag in range(0,4):
+    for flag in range(0,0):
         vecB = getTestVector_one_word();
         allwriter = makeWritersVectors(flag);
         keys = allwriter.keys();
@@ -196,8 +193,9 @@ def cosine(writer):
                 name = wri;
                 min = result[wri];
         #print("\t\t"+name+" : "+str(min));
-        tareq.append(name);
+        #tareq.append(name);
 
+    #return tareq.count(writer);
     #this is for bigram:
     for flag in range(4, 5):
         vecB = getTestVector_two_word();
@@ -218,7 +216,7 @@ def cosine(writer):
                 min = result[wri];
         #print("\t\t"+name+" : "+str(min));
         tareq.append(name);
-    print(tareq);
+    #print(tareq);
     return tareq.count(writer);
 
 
@@ -248,21 +246,11 @@ def doItForAll():
             # print(file);
             flag = cosine(writer)
             # print(flag);
-            if flag < 3:
-                error_list[3] += 1;
-                print("error 3 "+file)
-            if flag < 2:
-                print("error 2 " + file)
-                error_list[2] += 1;
+
             if flag < 1:
                 print("error 1 " + file)
                 error_list[1] += 1;
-            if flag<4:
-                print("error 4 " + file)
-                error_list[4]+=1;
-            if flag < 5:
-                print("error 5 " + file)
-                error_list[5] += 1;
+
             sum += 1
 
 
@@ -270,49 +258,8 @@ def doItForAll():
         print("\nerror 1: ");
         print((error_list[1]) / sum * 100);
         print(error_list[1]);
+        print("sum = "+str(sum));
 
-        print("\nerror 2: ");
-        print((error_list[2]) / sum * 100);
-        print(error_list[2]);
-
-        print("\nerror 3: ");
-        print((error_list[3]) / sum * 100);
-        print(error_list[3]);
-
-        print("\nerror 4: ");
-        print((error_list[4]) / sum * 100);
-        print(error_list[4]);
-
-        print("\nerror 5: ");
-        print((error_list[5]) / sum * 100);
-        print(error_list[5]);
-        print(sum)
-
-        allresult += writer;
-        allresult += ",";
-        allresult += str((error_list[5]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[4]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[3]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[2]) / sum * 100);
-        allresult += ",";
-        allresult += str((error_list[1]) / sum * 100);
-        allresult += ",";
-        allresult += (str(error_list[5]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[4]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[3]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[2]) + "-" + str(sum));
-        allresult += ",";
-        allresult += (str(error_list[1]) + "-" + str(sum));
-        allresult += "\n";
-
-    rw = open("result55.csv", "w", encoding="utf8");
-    rw.write(allresult);
     print("");
 
 

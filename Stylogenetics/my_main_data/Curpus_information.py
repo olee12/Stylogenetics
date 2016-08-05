@@ -61,7 +61,7 @@ def getSentanceLen(sent):
 def type_token_ratio():
     to_save_folder = "./#TypeTokenRatio[.]/"
     folder_list = os.listdir("./");
-    totTatalWord = 0;
+    totalWord = 0;
     docWiseData = "";
     defaultData = "";
     modifiedData = "";
@@ -73,61 +73,12 @@ def type_token_ratio():
         data_path = folder_name + "data.doc";
         fw = open(data_path, "r", encoding="utf8");
         text = fw.read();
-        words = word_tokenize(text);
-        words = [word for word in words if len(word)>1]
+        wordList = getWordList(text);
+        wordList = [w for w in wordList if len(w)>1];
+        totalWord += len(wordList);
+        print(folder + " "+str(len(wordList)));
 
-
-        totTatalWord = len(words);
-        tot = 0;
-        prv = 0;
-        freq = []
-        for i in range(1000,totTatalWord,1000):
-            nword = words[prv:i];
-            prv = i;
-            freq.append((len(set(nword))/len(nword)) * 100)
-            tot+= ((len(set(nword))/len(nword)) * 100)
-
-        mtypeToken = (tot/len(freq))
-        typeToken = (len(set(words))/len(words)) * 100;
-        print(folder_name+" Original " +str(typeToken));
-        print(folder_name+" Modified " +str(mtypeToken));
-
-        files = os.listdir("./"+folder_name+"/");
-
-        tot = 0;
-        freq = [];
-        avg_word = 0;
-        for file in files:
-            if file.find("Normal")==-1:
-                continue;
-            data_path = "./"+folder_name+"/"+file;
-            fw = open(data_path,"r",encoding="utf8");
-            text = fw.read();
-            words = getWordList(text);
-            words = [word for word in words if len(word)>1];
-            if len(words)==0:
-                continue;
-            tot += ((len(set(words)) / len(words))*100)
-            freq.append(((len(set(words)) / len(words))*100))
-            avg_word+=len(words);
-        doctypeToken = tot / len(freq);
-        print(folder_name + " DocWise " + str(doctypeToken));
-        print(folder_name + " avg word " + str(avg_word/len(freq)));
-        print(folder_name + " tot _ doc " + str(len(freq)));
-        print(" ");
-        modifiedData+= folder+","+str(mtypeToken)+"\n";
-        defaultData+= folder+","+str(typeToken)+"\n";
-        docWiseData+= folder +","+str(doctypeToken)+"\n";
-
-
-    make_sure_path_exists(to_save_folder);
-    fw = open(to_save_folder + "/"+ "[Original]" + ".csv", "w", encoding="utf8");
-    fw.write(defaultData)
-    fw = open(to_save_folder + "/"+ "[Modified]" + ".csv", "w", encoding="utf8");
-    fw.write(modifiedData)
-    fw = open(to_save_folder + "/"+ "[DocWise]" + ".csv", "w", encoding="utf8");
-    fw.write(docWiseData);
-    fw.close();
+    print("Total Word = "+str(totalWord));
 
 
 
