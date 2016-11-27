@@ -1,0 +1,45 @@
+SVM for STYLOMETRY
+Feature Number : 1
+Complete for Feature :1
+Total test set size : 302
+Correct prediction : 260
+Incorrect Prediction : 42
+Accuracy : 86.0927152318
+Error Rate : 13.90728476821192
+---------------------------------------
+
+Feature Number : 2
+Complete for Feature :2
+Total test set size : 302
+Correct prediction : 258
+Incorrect Prediction : 44
+Accuracy : 85.4304635762
+Error Rate : 14.56953642384106
+---------------------------------------
+
+Feature Number : 3
+Complete for Feature :3
+Total test set size : 302
+Correct prediction : 261
+Incorrect Prediction : 41
+Accuracy : 86.4238410596
+Error Rate : 13.57615894039735
+---------------------------------------
+
+Feature Number : 4
+Complete for Feature :4
+Total test set size : 302
+Correct prediction : 269
+Incorrect Prediction : 33
+Accuracy : 89.0728476821
+Error Rate : 10.927152317880795
+---------------------------------------
+
+Feature Number : 5
+Complete for Feature :5
+Total test set size : 302
+Correct prediction : 206
+Incorrect Prediction : 96
+Accuracy : 68.2119205298
+Error Rate : 31.788079470198678
+---------------------------------------
