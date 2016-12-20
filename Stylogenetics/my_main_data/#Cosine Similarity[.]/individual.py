@@ -60,16 +60,16 @@ def getDect(freq):
     return word_dect;
 
 def makeWritersVectors(flag):
-    if flag==1:
-        fw = open("./train data/Common_word_changed_freq.csv","r",encoding="utf8");
-    elif flag==0:
-        fw = open("./train data/Filtered_one_word.csv","r",encoding="utf8");
-    elif flag==2:
-        fw = open("./train data/Freq_one_by_four_feature_words Phase 1.csv","r",encoding="utf8");
-    elif flag==3:
-        fw = open("./train data/Top_50_Freq_one_word.csv","r",encoding="utf8");
-    elif flag==4:
-        fw = open("./train data/Freq_two_word.csv", "r", encoding="utf8");
+    if flag == 0:
+        fw = open("./train data/Most frequent words.csv", "r", encoding="utf8");
+    elif flag == 1:
+        fw = open("./train data/Modified word frequency.csv", "r", encoding="utf8");
+    elif flag == 2:
+        fw = open("./train data/Distribution of some common Bengali words.csv", "r", encoding="utf8");
+    elif flag == 3:
+        fw = open("./train data/Spelling of particular words.csv", "r", encoding="utf8");
+    elif flag == 4:
+        fw = open("./train data/Bigrams.csv", "r", encoding="utf8");
 
     lines = fw.read().split("\n");
     fw.close();
@@ -173,17 +173,20 @@ def dot(vecA,vecB):
 
 
 
-def cosine(writer):
+def cosine(writer,feature_number):
     tareq = [];
-    for flag in range(0,0):
-        vecB = getTestVector_one_word();
+    for flag in range(feature_number-1,feature_number):
+        if flag == 4:
+            vecB = getTestVector_two_word();
+        else:
+            vecB = getTestVector_one_word();
         allwriter = makeWritersVectors(flag);
         keys = allwriter.keys();
         keys = sorted(keys);
         result = dict();
         for wri in keys:
             vecA = allwriter[wri];
-            res = dot(vecA,vecB);
+            res = dot(vecA, vecB);
             result[wri] = res;
             #print(wri +" match "+str(res))
         name = "";
@@ -193,9 +196,9 @@ def cosine(writer):
                 name = wri;
                 min = result[wri];
         #print("\t\t"+name+" : "+str(min));
-        #tareq.append(name);
+        tareq.append(name);
 
-    #return tareq.count(writer);
+    return tareq.count(writer);
     #this is for bigram:
     for flag in range(4, 5):
         vecB = getTestVector_two_word();
@@ -226,39 +229,40 @@ def doItForAll():
     allresult = "Writer,5 error,4 error,3 error,2 error,1 error,5-tot,4-tot,3-tot,2-tot,1-tot\n";
     dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\test_data\\";
     folders = os.listdir(dir);
-    for writer in folders:
-        if writer.find(".") != -1:
-            continue;
-        data_path = dir + writer + "\\";
-        files = os.listdir(data_path);
+    cnt = 0;
+    sum = 0;
+    for feature_number in range(1,6):
         cnt = 0;
         sum = 0;
-        error_list = [0, 0, 0, 0,0,0];
-        for file in files:
-            fw = open(dir + writer + "\\" + file, "r", encoding="utf8");
-            ft = open("test_data.txt", "w", encoding="utf8");
-            doc = fw.read();
-            if len(getWordList(formatText(doc))) < 500:
+        for writer in folders:
+            if writer.find(".") != -1:
                 continue;
-            ft.write(doc);
-            ft.close();
-            fw.close();
-            # print(file);
-            flag = cosine(writer)
-            # print(flag);
+            data_path = dir + writer + "\\";
+            files = os.listdir(data_path);
 
-            if flag < 1:
-                print("error 1 " + file)
-                error_list[1] += 1;
+            error_list = [0, 0, 0, 0,0,0];
+            for file in files:
+                fw = open(dir + writer + "\\" + file, "r", encoding="utf8");
+                ft = open("test_data.txt", "w", encoding="utf8");
+                doc = fw.read();
+                if len(getWordList(formatText(doc))) < 500:
+                    continue;
+                ft.write(doc);
+                ft.close();
+                fw.close();
+                flag = cosine(writer,feature_number);
+                if flag < 1:
+                    error_list[1] += 1;
+                    cnt += 1;
+                sum += 1;
 
-            sum += 1
-
-
-        print("\n\nWriter = " + writer);
-        print("\nerror 1: ");
-        print((error_list[1]) / sum * 100);
-        print(error_list[1]);
-        print("sum = "+str(sum));
+        print("Complete for Feature :" + str(feature_number));
+        print("Total test set size : " + str(sum));
+        print("Correct prediction : " + str(sum - cnt));
+        print("Incorrect Prediction : " + str(cnt));
+        print("Accuracy : " + str(100 - (cnt/sum) * 100.0))
+        print("Error Rate : " + str((cnt/sum) * 100.0));
+        print("---------------------------------------\n");
 
     print("");
 

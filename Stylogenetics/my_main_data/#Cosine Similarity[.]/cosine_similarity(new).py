@@ -65,16 +65,16 @@ def getDect(freq):
 
 
 def getFeaturesWords(flag):
-    if flag==1:
-        fw = open("./train data/Common_word_changed_freq.csv","r",encoding="utf8");
-    elif flag==0:
-        fw = open("./train data/Filtered_one_word.csv","r",encoding="utf8");
+    if flag==0:
+        fw = open("./train data/Most frequent words.csv","r",encoding="utf8");
+    elif flag==1:
+        fw = open("./train data/Modified word frequency.csv","r",encoding="utf8");
     elif flag==2:
-        fw = open("./train data/Freq_one_by_four_feature_words Phase 1.csv","r",encoding="utf8");
+        fw = open("./train data/Distribution of some common Bengali words.csv","r",encoding="utf8");
     elif flag==3:
-        fw = open("./train data/Top_50_Freq_one_word.csv","r",encoding="utf8");
+        fw = open("./train data/Spelling of particular words.csv","r",encoding="utf8");
     elif flag==4:
-        fw = open("./train data/Freq_two_word.csv", "r", encoding="utf8");
+        fw = open("./train data/Bigrams.csv", "r", encoding="utf8");
 
     lines = fw.read().split("\n");
     fw.close();
@@ -155,7 +155,7 @@ def MakeVectorForSVM(read_file,feature_number,feature_words):
 
 
 
-def MakeTrainDataForSVM(feature_number,feature_words):
+def MakeTrainDataForCosine(feature_number, feature_words):
     train_data = [];
     train_label = [];
     dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\train_data\\";
@@ -165,9 +165,6 @@ def MakeTrainDataForSVM(feature_number,feature_words):
             continue;
         data_path = dir + writer + "\\";
         files = os.listdir(data_path);
-        cnt = 0;
-        sum = 0;
-        error_list = [0, 0, 0, 0,0,0];
         for file in files:
             fw = open(dir + writer + "\\" + file, "r", encoding="utf8");
             train_file = "train_data.txt";
@@ -188,7 +185,7 @@ def MakeTrainDataForSVM(feature_number,feature_words):
     return train_data,train_label;
 
 
-def MakeTestDataForSVM(feature_number,feature_words):
+def MakeTestDataForCosine(feature_number, feature_words):
     test_data = [];
     test_label = [];
     dir = "C:\\Users\\Tahmidolee\\Documents\\Project 300\\Stylogenetics\\Stylogenetics\\test_data\\";
@@ -221,15 +218,32 @@ def MakeTestDataForSVM(feature_number,feature_words):
     return test_data,test_label;
 
 
+def doCosineSimilarity(train_data, train_label,test_data, test_label):
 
-def SvmForStylometry():
-    print("SVM for STYLOMETRY");
+    train_vec = [];
+    for i in range(0,len(train_data[0])):
+        train_vec.append(0);
+    for vec in train_data:
+        for i in range(0,len(train_vec)):
+            train_vec[i] += vec[i];
+
+
+
+
+
+    return ;
+
+
+
+
+def cosineForStylometry():
+    print("Cosine similarity for STYLOMETRY");
 
     for feature_number in range(1,6):
         print("Feature Number : "+str(feature_number));
         feature_words = getFeaturesWords(feature_number-1);
-        train_data, train_label = MakeTrainDataForSVM(feature_number,feature_words);
-        test_data, test_label = MakeTestDataForSVM(feature_number,feature_words);
+        train_data, train_label = MakeTrainDataForCosine(feature_number, feature_words);
+        test_data, test_label = MakeTestDataForCosine(feature_number, feature_words);
 
         clf = svm.SVC(decision_function_shape='ovr', kernel='poly',gamma=1000)
         clf.fit(train_data, train_label)
@@ -250,4 +264,4 @@ def SvmForStylometry():
         print("Error Rate : "+str(cnt / tot * 100.0));
         print("---------------------------------------\n");
 
-SvmForStylometry();
+cosineForStylometry();

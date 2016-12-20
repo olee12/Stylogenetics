@@ -63,16 +63,16 @@ def getDect(freq):
     return word_dect;
 
 def makeWritersVectors(flag):
-    if flag==1:
-        fw = open("./train data/Common_word_changed_freq.csv","r",encoding="utf8");
-    elif flag==0:
-        fw = open("./train data/Filtered_one_word.csv","r",encoding="utf8");
-    elif flag==2:
-        fw = open("./train data/Freq_one_by_four_feature_words Phase 1.csv","r",encoding="utf8");
-    elif flag==3:
-        fw = open("./train data/Top_50_Freq_one_word.csv","r",encoding="utf8");
-    elif flag==4:
-        fw = open("./train data/Freq_two_word.csv", "r", encoding="utf8");
+    if flag == 0:
+        fw = open("./train data/Most frequent words.csv", "r", encoding="utf8");
+    elif flag == 1:
+        fw = open("./train data/Modified word frequency.csv", "r", encoding="utf8");
+    elif flag == 2:
+        fw = open("./train data/Distribution of some common Bengali words.csv", "r", encoding="utf8");
+    elif flag == 3:
+        fw = open("./train data/Spelling of particular words.csv", "r", encoding="utf8");
+    elif flag == 4:
+        fw = open("./train data/Bigrams.csv", "r", encoding="utf8");
 
     lines = fw.read().split("\n");
     fw.close();
@@ -218,7 +218,7 @@ def cosine(writer):
                 min = result[wri];
         #print("\t\t"+name+" : "+str(min));
         tareq.append(name);
-    print(tareq);
+    #print(tareq);
     return tareq.count(writer);
 
 
@@ -250,18 +250,18 @@ def doItForAll():
             # print(flag);
             if flag < 3:
                 error_list[3] += 1;
-                print("error 3 "+file)
+                #print("error 3 "+file)
             if flag < 2:
-                print("error 2 " + file)
+                #print("error 2 " + file)
                 error_list[2] += 1;
             if flag < 1:
-                print("error 1 " + file)
+                #print("error 1 " + file)
                 error_list[1] += 1;
             if flag<4:
-                print("error 4 " + file)
+                #print("error 4 " + file)
                 error_list[4]+=1;
             if flag < 5:
-                print("error 5 " + file)
+                #print("error 5 " + file)
                 error_list[5] += 1;
             sum += 1
 

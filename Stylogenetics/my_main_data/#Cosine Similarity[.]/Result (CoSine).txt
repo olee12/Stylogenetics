@@ -1,0 +1,39 @@
+Complete for Feature :1
+Total test set size : 302
+Correct prediction : 268
+Incorrect Prediction : 34
+Accuracy : 88.74172185430464
+Error Rate : 11.258278145695364
+---------------------------------------
+
+Complete for Feature :2
+Total test set size : 302
+Correct prediction : 272
+Incorrect Prediction : 30
+Accuracy : 90.06622516556291
+Error Rate : 9.933774834437086
+---------------------------------------
+
+Complete for Feature :3
+Total test set size : 302
+Correct prediction : 265
+Incorrect Prediction : 37
+Accuracy : 87.74834437086093
+Error Rate : 12.251655629139073
+---------------------------------------
+
+Complete for Feature :4
+Total test set size : 302
+Correct prediction : 244
+Incorrect Prediction : 58
+Accuracy : 80.79470198675497
+Error Rate : 19.205298013245034
+---------------------------------------
+
+Complete for Feature :5
+Total test set size : 302
+Correct prediction : 253
+Incorrect Prediction : 49
+Accuracy : 83.7748344370861
+Error Rate : 16.225165562913908
+---------------------------------------
