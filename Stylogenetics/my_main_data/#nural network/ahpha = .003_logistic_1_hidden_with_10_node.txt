@@ -1,0 +1,59 @@
+Feature Number : 1
+Complete for Feature :1
+Train Score : 0.984972677596
+Total test set size : 302
+Correct prediction : 275
+Incorrect Prediction : 27
+Accuracy : 91.059602649
+Precision : 91.7384560353
+F1 Score : 90.94350698
+Error Rate : 8.940397350993377
+---------------------------------------
+
+Feature Number : 2
+Complete for Feature :2
+Train Score : 1.0
+Total test set size : 302
+Correct prediction : 286
+Incorrect Prediction : 16
+Accuracy : 94.701986755
+Precision : 94.6836961244
+F1 Score : 94.5044009298
+Error Rate : 5.298013245033113
+---------------------------------------
+
+Feature Number : 3
+Complete for Feature :3
+Train Score : 1.0
+Total test set size : 302
+Correct prediction : 286
+Incorrect Prediction : 16
+Accuracy : 94.701986755
+Precision : 95.2600857145
+F1 Score : 94.5957398437
+Error Rate : 5.298013245033113
+---------------------------------------
+
+Feature Number : 4
+Complete for Feature :4
+Train Score : 0.998633879781
+Total test set size : 302
+Correct prediction : 257
+Incorrect Prediction : 45
+Accuracy : 85.0993377483
+Precision : 85.5209468863
+F1 Score : 85.0233097831
+Error Rate : 14.90066225165563
+---------------------------------------
+
+Feature Number : 5
+Complete for Feature :5
+Train Score : 1.0
+Total test set size : 302
+Correct prediction : 273
+Incorrect Prediction : 29
+Accuracy : 90.3973509934
+Precision : 91.0342013412
+F1 Score : 89.9974688084
+Error Rate : 9.602649006622517
+---------------------------------------

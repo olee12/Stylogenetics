@@ -219,15 +219,18 @@ def MakeTestDataForSVM(feature_number,feature_words):
 
 
 
-def SVM_():
+def decisionTree():
     import pydotplus
     a,b,c,d = traing_test_data_set();
     for feature_number in range(1, 6):
         print("Feature Number : " + str(feature_number));
         train_data, train_label = a[feature_number - 1], b[feature_number - 1];
         test_data, test_label = c[feature_number - 1], d[feature_number - 1];
-        clf = svm.SVC(decision_function_shape='ovr', kernel='poly', gamma=1000)
+        from sklearn import tree
+        clf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=30, max_depth=15);
         clf.fit(train_data, train_label)
+        with open("iris.dot", 'w') as f:
+            f = tree.export_graphviz(clf, out_file=f)
         tot = len(test_label);
         cnt = 0;
         prediction = clf.predict(test_data);
@@ -270,4 +273,4 @@ def traing_test_data_set():
 
 
 
-SVM_();
+decisionTree();

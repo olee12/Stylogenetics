@@ -1,0 +1,106 @@
+88 Kandari Athorbo Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+112 Nir Shondhani Kandari Athorbo
+114 MZI Kandari Athorbo
+139 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.003, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 295
+Incorrect Prediction : 7
+Accuracy : 97.6821192053
+Precision : 97.7088170576
+F1 Score : 97.6572007067
+Error Rate : 2.3178807947019866
+---------------------------------------
+
+
+29 Kandari Athorbo Emon Jubayer
+99 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+109 Tareque Anu Kandari Athorbo
+120 Tareque Anu Kandari Athorbo
+121 Tareque Anu Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+139 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.0003, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 293
+Incorrect Prediction : 9
+Accuracy : 97.0198675497
+Precision : 97.2309360598
+F1 Score : 97.0139168368
+Error Rate : 2.980132450331126
+---------------------------------------
+
+6 Tareque Anu Emon Jubayer
+99 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+114 MZI Kandari Athorbo
+139 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.0001, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 296
+Incorrect Prediction : 6
+Accuracy : 98.0132450331
+Precision : 98.0964683555
+F1 Score : 98.0113458225
+Error Rate : 1.9867549668874174
+---------------------------------------
+
+88 Kandari Athorbo Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+116 Tareque Anu Kandari Athorbo
+122 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.01, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 296
+Incorrect Prediction : 6
+Accuracy : 98.0132450331
+Precision : 98.0481277854
+F1 Score : 98.0022578053
+Error Rate : 1.9867549668874174
+---------------------------------------
+
+
+81 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+114 MZI Kandari Athorbo
+122 Tareque Anu Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=1, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 295
+Incorrect Prediction : 7
+Accuracy : 97.6821192053
+Precision : 97.7561791235
+F1 Score : 97.6481372336
+Error Rate : 2.3178807947019866
+---------------------------------------
+
+
+11 Nir Shondhani Emon Jubayer
+81 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+114 MZI Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=10, hidden_layer_sizes=(10,), random_state=1, activation='relu')
+Total test set size : 302
+Correct prediction : 295
+Incorrect Prediction : 7
+Accuracy : 97.6821192053
+Precision : 97.7222948896
+F1 Score : 97.656738813
+Error Rate : 2.3178807947019866
+---------------------------------------
+
+

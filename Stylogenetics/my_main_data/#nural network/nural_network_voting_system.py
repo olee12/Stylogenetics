@@ -218,36 +218,50 @@ def MakeTestDataForSVM(feature_number,feature_words):
     return test_data,test_label;
 
 
+def most_common(lst):
+    return max(set(lst), key=lst.count)
 
-def SVM_():
+def nural_network_voting_system():
     import pydotplus
     a,b,c,d = traing_test_data_set();
+    voting_pred = list();
+    for i in range(0, len(d[0])):
+        voting_pred.append([]);
+
     for feature_number in range(1, 6):
         print("Feature Number : " + str(feature_number));
         train_data, train_label = a[feature_number - 1], b[feature_number - 1];
         test_data, test_label = c[feature_number - 1], d[feature_number - 1];
-        clf = svm.SVC(decision_function_shape='ovr', kernel='poly', gamma=1000)
+        from sklearn.neural_network import MLPClassifier
+        clf = MLPClassifier(solver='lbfgs', alpha=.003, hidden_layer_sizes=(10,), random_state=1, activation='relu')
         clf.fit(train_data, train_label)
         tot = len(test_label);
         cnt = 0;
-        prediction = clf.predict(test_data);
         for i in range(0, len(test_data)):
-            if clf.predict([test_data[i]])[0] != test_label[i]:
-                # print(str(i)+str(clf.predict([test_data[i]]))+" "+str(test_label[i]));
-                cnt += 1;
-        from sklearn.metrics import accuracy_score
-        from sklearn.metrics import precision_score
-        from sklearn.metrics import f1_score
-        print("Complete for Feature :" + str(feature_number));
-        print("Train Score : " + str(clf.score(train_data, train_label)));
-        print("Total test set size : " + str(len(test_label)));
-        print("Correct prediction : " + str(tot - cnt));
-        print("Incorrect Prediction : " + str(cnt));
-        print("Accuracy : " + str(accuracy_score(test_label, prediction) * 100.0))
-        print("Precision : " + str(precision_score(test_label, prediction, average='weighted') * 100.0))
-        print("F1 Score : " + str(f1_score(test_label, prediction, average='weighted') * 100.0))
-        print("Error Rate : " + str(cnt / tot * 100.0));
-        print("---------------------------------------\n");
+            voting_pred[i].append(clf.predict([test_data[i]])[0]);
+
+    tot = len(test_label);
+    cnt = 0;
+    prediction = list();
+    for i in range(0, len(test_data)):
+        prediction.append(most_common(voting_pred[i]));
+        if prediction[i] != test_label[i]:
+            print(str(i) + " " + str(prediction[i]) + " " + str(test_label[i]));
+            cnt += 1;
+    from sklearn.metrics import accuracy_score
+    from sklearn.metrics import precision_score
+    from sklearn.metrics import f1_score
+    print("Complete for Voting system :");
+    print("Total test set size : " + str(len(test_label)));
+    print("Correct prediction : " + str(tot - cnt));
+    print("Incorrect Prediction : " + str(cnt));
+    print("Accuracy : " + str(accuracy_score(test_label, prediction) * 100.0))
+    print("Precision : " + str(precision_score(test_label, prediction, average='weighted') * 100.0))
+    print("F1 Score : " + str(f1_score(test_label, prediction, average='weighted') * 100.0))
+    print("Error Rate : " + str(cnt / tot * 100.0));
+    print("---------------------------------------\n");
+
+
 
 
 
@@ -270,4 +284,4 @@ def traing_test_data_set():
 
 
 
-SVM_();
+nural_network_voting_system();

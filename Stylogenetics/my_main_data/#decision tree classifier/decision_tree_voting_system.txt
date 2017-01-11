@@ -1,0 +1,9 @@
+Complete for Voting system :
+Total test set size : 302
+Correct prediction : 263
+Incorrect Prediction : 39
+Accuracy : 87.0860927152
+Precision : 87.3428432548
+F1 Score : 86.7656246053
+Error Rate : 12.91390728476821
+---------------------------------------

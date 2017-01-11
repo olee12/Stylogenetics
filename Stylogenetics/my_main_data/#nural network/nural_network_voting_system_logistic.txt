@@ -1,0 +1,142 @@
+6 Tareque Anu Emon Jubayer
+81 Nir Shondhani Hasan Mahbub
+88 Kandari Athorbo Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+122 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : MLPClassifier(solver='lbfgs', alpha=.01, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 294
+Incorrect Prediction : 8
+Accuracy : 97.3509933775
+Precision : 97.3923687931
+F1 Score : 97.3330415489
+Error Rate : 2.6490066225165565
+---------------------------------------
+
+
+11 Nir Shondhani Emon Jubayer
+99 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+112 Emon Jubayer Kandari Athorbo
+114 MZI Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.001, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 296
+Incorrect Prediction : 6
+Accuracy : 98.0132450331
+Precision : 98.0303208799
+F1 Score : 97.9956788577
+Error Rate : 1.9867549668874174
+---------------------------------------
+
+
+6 Tareque Anu Emon Jubayer
+88 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+122 Tareque Anu Kandari Athorbo
+134 Hasan Mahbub Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+151 Kandari Athorbo MZI
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.0001, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 295
+Incorrect Prediction : 7
+Accuracy : 97.6821192053
+Precision : 97.7107543005
+F1 Score : 97.6746405051
+Error Rate : 2.3178807947019866
+---------------------------------------
+
+
+6 Tareque Anu Emon Jubayer
+107 Tareque Anu Kandari Athorbo
+112 Emon Jubayer Kandari Athorbo
+114 MZI Kandari Athorbo
+115 Tareque Anu Kandari Athorbo
+131 Tareque Anu Kandari Athorbo
+140 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.0003, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 294
+Incorrect Prediction : 8
+Accuracy : 97.3509933775
+Precision : 97.5701076382
+F1 Score : 97.3215670084
+Error Rate : 2.6490066225165565
+---------------------------------------
+
+
+81 Kandari Athorbo Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+115 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=.003, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 297
+Incorrect Prediction : 5
+Accuracy : 98.3443708609
+Precision : 98.3625743957
+F1 Score : 98.3373208806
+Error Rate : 1.6556291390728477
+---------------------------------------
+
+6 Tareque Anu Emon Jubayer
+99 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+139 Tareque Anu Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system :clf = MLPClassifier(solver='lbfgs', alpha=.03, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 297
+Incorrect Prediction : 5
+Accuracy : 98.3443708609
+Precision : 98.3930505227
+F1 Score : 98.3435542677
+Error Rate : 1.6556291390728477
+---------------------------------------
+
+
+81 Tareque Anu Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+114 MZI Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=1, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+
+Total test set size : 302
+Correct prediction : 296
+Incorrect Prediction : 6
+Accuracy : 98.0132450331
+Precision : 98.0610785766
+F1 Score : 97.9985675395
+Error Rate : 1.9867549668874174
+---------------------------------------
+
+
+6 Tareque Anu Emon Jubayer
+81 Tareque Anu Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+107 Nir Shondhani Kandari Athorbo
+109 Tareque Anu Kandari Athorbo
+114 MZI Kandari Athorbo
+122 Tareque Anu Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+142 Tareque Anu Kandari Athorbo
+Complete for Voting system : clf = MLPClassifier(solver='lbfgs', alpha=1, hidden_layer_sizes=(10,), random_state=1, activation='logistic')
+Total test set size : 302
+Correct prediction : 291
+Incorrect Prediction : 11
+Accuracy : 96.357615894
+Precision : 96.6011040374
+F1 Score : 96.3177372589
+Error Rate : 3.642384105960265
+---------------------------------------
