@@ -232,6 +232,12 @@ def nural_network_voting_system():
         print("Feature Number : " + str(feature_number));
         train_data, train_label = a[feature_number - 1], b[feature_number - 1];
         test_data, test_label = c[feature_number - 1], d[feature_number - 1];
+
+        from sklearn.preprocessing import StandardScaler
+        scaler = StandardScaler();
+        scaler.fit(train_data);
+        train_data = scaler.transform(train_data);
+        test_data = scaler.transform(test_data);
         from sklearn.neural_network import MLPClassifier
         clf = MLPClassifier(solver='lbfgs', alpha=.003, hidden_layer_sizes=(10,), random_state=1, activation='relu')
         clf.fit(train_data, train_label)

@@ -226,7 +226,13 @@ def SVM_():
         print("Feature Number : " + str(feature_number));
         train_data, train_label = a[feature_number - 1], b[feature_number - 1];
         test_data, test_label = c[feature_number - 1], d[feature_number - 1];
-        clf = svm.SVC(decision_function_shape='ovr', kernel='poly', gamma=1000)
+        #use feature scaling for rbf kernel
+        #from sklearn.preprocessing import StandardScaler
+        #scaler = StandardScaler();
+        #scaler.fit(train_data);
+        #train_data = scaler.transform(train_data);
+        #test_data = scaler.transform(test_data);
+        clf = svm.SVC(decision_function_shape='ovr', kernel='linear')
         clf.fit(train_data, train_label)
         tot = len(test_label);
         cnt = 0;

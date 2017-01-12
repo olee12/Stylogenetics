@@ -1,0 +1,23 @@
+Feature Number : 1
+Feature Number : 2
+Feature Number : 3
+Feature Number : 4
+Feature Number : 5
+75 Kandari Athorbo Hasan Mahbub
+81 Tareque Anu Hasan Mahbub
+99 Kandari Athorbo Hasan Mahbub
+107 Tareque Anu Kandari Athorbo
+114 MZI Kandari Athorbo
+123 Tareque Anu Kandari Athorbo
+140 Emon Jubayer Kandari Athorbo
+141 Tareque Anu Kandari Athorbo
+258 Kandari Athorbo Tareque Anu
+Complete for Voting system : clf = svm.SVC(decision_function_shape='ovo', kernel='linear')
+Total test set size : 302
+Correct prediction : 293
+Incorrect Prediction : 9
+Accuracy : 97.0198675497
+Precision : 97.0661890272
+F1 Score : 97.0048024928
+Error Rate : 2.980132450331126
+---------------------------------------
