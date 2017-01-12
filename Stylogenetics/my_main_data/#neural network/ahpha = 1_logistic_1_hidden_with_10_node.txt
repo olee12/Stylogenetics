@@ -1,3 +1,5 @@
+ahpha = 1_logistic_1_hidden_with_10_node
+
 Complete for Feature :1
 Train Score : 1.0
 Total test set size : 302

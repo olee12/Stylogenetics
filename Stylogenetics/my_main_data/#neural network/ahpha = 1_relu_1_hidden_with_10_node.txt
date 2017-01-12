@@ -1,3 +1,5 @@
+//ahpha = 1_relu_1_hidden_with_10_node
+
 Feature Number : 1
 Complete for Feature :1
 Train Score : 1.0

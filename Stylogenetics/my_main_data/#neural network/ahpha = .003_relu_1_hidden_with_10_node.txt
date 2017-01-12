@@ -1,13 +1,15 @@
+//ahpha = .003_relu_1_hidden_with_10_node
+
 Feature Number : 1
 Complete for Feature :1
-Train Score : 1.0
+Train Score : 0.997267759563
 Total test set size : 302
-Correct prediction : 287
-Incorrect Prediction : 15
-Accuracy : 95.0331125828
-Precision : 95.4074902115
-F1 Score : 94.9658648836
-Error Rate : 4.966887417218543
+Correct prediction : 286
+Incorrect Prediction : 16
+Accuracy : 94.701986755
+Precision : 94.7084295699
+F1 Score : 94.6670362515
+Error Rate : 5.298013245033113
 ---------------------------------------
 
 Feature Number : 2
@@ -26,34 +28,34 @@ Feature Number : 3
 Complete for Feature :3
 Train Score : 1.0
 Total test set size : 302
-Correct prediction : 280
-Incorrect Prediction : 22
-Accuracy : 92.7152317881
-Precision : 93.0818740861
-F1 Score : 92.2771060901
-Error Rate : 7.28476821192053
+Correct prediction : 282
+Incorrect Prediction : 20
+Accuracy : 93.3774834437
+Precision : 93.9018404153
+F1 Score : 92.9238561978
+Error Rate : 6.622516556291391
 ---------------------------------------
 
 Feature Number : 4
 Complete for Feature :4
 Train Score : 1.0
 Total test set size : 302
-Correct prediction : 262
-Incorrect Prediction : 40
-Accuracy : 86.7549668874
-Precision : 86.4605557145
-F1 Score : 86.1966773847
-Error Rate : 13.245033112582782
+Correct prediction : 264
+Incorrect Prediction : 38
+Accuracy : 87.417218543
+Precision : 87.32202687
+F1 Score : 86.5574861255
+Error Rate : 12.582781456953644
 ---------------------------------------
 
 Feature Number : 5
 Complete for Feature :5
 Train Score : 1.0
 Total test set size : 302
-Correct prediction : 273
-Incorrect Prediction : 29
-Accuracy : 90.3973509934
-Precision : 91.053270267
-F1 Score : 90.1362897497
-Error Rate : 9.602649006622517
+Correct prediction : 272
+Incorrect Prediction : 30
+Accuracy : 90.0662251656
+Precision : 90.6932673669
+F1 Score : 89.7229780546
+Error Rate : 9.933774834437086
 ---------------------------------------

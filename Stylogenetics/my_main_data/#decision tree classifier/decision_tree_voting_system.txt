@@ -1,4 +1,5 @@
-Complete for Voting system :
+/// Decision tree : min_split_30_max_depth_20 
+Complete for Voting system : min_split_30_max_depth_20 
 Total test set size : 302
 Correct prediction : 263
 Incorrect Prediction : 39

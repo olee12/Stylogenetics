@@ -1,4 +1,7 @@
-Complete for Voting system :
+/// SVM voting system with poly (ovr) gamma 1000
+
+
+Complete for Voting system : with poly (ovr) gamma 1000
 Total test set size : 302
 Correct prediction : 270
 Incorrect Prediction : 32

@@ -1,3 +1,6 @@
+ahpha = .0001_logistic_1_hidden_with_10_node
+
+
 Feature Number : 1
 Complete for Feature :1
 Train Score : 0.986338797814
