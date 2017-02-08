@@ -15,7 +15,6 @@ def getDect(word_list):
         key = ara[0];
         val = ara[1];
         word_dect[key]= val;
-
     return word_dect;
 
 def Freq_one_word(rootFolder):
@@ -54,7 +53,6 @@ def Freq_one_word(rootFolder):
             val = dic.get(word,"0");
             allgramFile+=","
             allgramFile+=val.strip();
-
         allgramFile+="\n";
     fw = open(rootFolder+"/"+"Top_50_Freq_one_word"+".csv","w",encoding="utf8");
     fw.write(allgramFile);
