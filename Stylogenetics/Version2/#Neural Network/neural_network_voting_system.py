@@ -66,27 +66,25 @@ def getDect(freq):
 
 def getFeaturesWords(flag):
     if flag==0:
-        fw = open("./train data/Most frequent words.csv","r",encoding="utf8");
+        fw = open("./Features/Most frequent words.csv","r",encoding="utf8");
     elif flag==1:
-        fw = open("./train data/Modified word frequency.csv","r",encoding="utf8");
+        fw = open("./Features/Modified word frequency.csv","r",encoding="utf8");
     elif flag==2:
-        fw = open("./train data/Distribution of some common Bengali words.csv","r",encoding="utf8");
+        fw = open("./Features/Distribution of some common Bengali words.csv","r",encoding="utf8");
     elif flag==3:
-        fw = open("./train data/Spelling of particular words.csv","r",encoding="utf8");
+        fw = open("./Features/Spelling of particular words.csv","r",encoding="utf8");
     elif flag==4:
-        fw = open("./train data/Bigrams.csv", "r", encoding="utf8");
+        fw = open("./Features/Bigrams.csv", "r", encoding="utf8");
 
     lines = fw.read().split("\n");
     fw.close();
-    lines = lines[1:];
+
     feature_words = [];
     for line in lines:
-        data = line.split(",");
-        word = data[0];
-        if word == "না":
-            continue;
+        word = line;
         word = word.strip();
-        feature_words.append(word);
+        if len(word)>=1:
+            feature_words.append(word);
     return feature_words;
 
 

@@ -1,0 +1,141 @@
+--- Votting System with Logistic Activation ---
+
+clf = MLPClassifier(solver = 'adam',alpha=1, hidden_layer_sizes=(15,), random_state=1, activation='logistic',max_iter =800)
+Feature Number : 1
+Max_iter = 306
+Feature Number : 2
+Max_iter = 282
+Feature Number : 3
+Max_iter = 300
+Feature Number : 4
+Max_iter = 342
+Feature Number : 5
+Max_iter = 335
+120 Ronodipom Boshu Hasan Mahbub
+333 Himu Ronodipom Boshu
+Complete for Voting system :
+Total train set size : 1134
+Total test set size : 490
+Correct prediction : 488
+Incorrect Prediction : 2
+Accuracy : 99.5918367347
+Precision : 99.593877551
+F1 Score : 99.5908706502
+Error Rate : 0.40816326530612246
+---------------------------------------
+
+
+clf = MLPClassifier(solver = 'adam',alpha=.01, hidden_layer_sizes=(15,), random_state=1, activation='logistic',max_iter =800)
+Feature Number : 1
+Max_iter = 486
+Feature Number : 2
+Max_iter = 333
+Feature Number : 3
+Max_iter = 420
+Feature Number : 4
+Max_iter = 891
+Feature Number : 5
+Max_iter = 448
+120 Ronodipom Boshu Hasan Mahbub
+182 Ronodipom Boshu Himu
+205 Ronodipom Boshu Himu
+257 Ronodipom Boshu Himu
+Complete for Voting system :
+Total train set size : 1134
+Total test set size : 490
+Correct prediction : 486
+Incorrect Prediction : 4
+Accuracy : 99.1836734694
+Precision : 99.2633150821
+F1 Score : 99.1984164903
+Error Rate : 0.8163265306122449
+---------------------------------------
+
+clf = MLPClassifier(solver = 'adam',alpha=.03, hidden_layer_sizes=(15,), random_state=1, activation='logistic',max_iter =800)
+Feature Number : 1
+Max_iter = 467
+Feature Number : 2
+Max_iter = 342
+Feature Number : 3
+Max_iter = 420
+Feature Number : 4
+Max_iter = 733
+Feature Number : 5
+Max_iter = 448
+120 Ronodipom Boshu Hasan Mahbub
+182 Ronodipom Boshu Himu
+257 Ronodipom Boshu Himu
+Complete for Voting system :
+Total train set size : 1134
+Total test set size : 490
+Correct prediction : 487
+Incorrect Prediction : 3
+Accuracy : 99.387755102
+Precision : 99.4336734694
+F1 Score : 99.3961206327
+Error Rate : 0.6122448979591837
+---------------------------------------
+
+clf = MLPClassifier(solver = 'adam',alpha=.003, hidden_layer_sizes=(15,), random_state=1, activation='logistic',max_iter =800)
+Feature Number : 1
+Max_iter = 494
+Feature Number : 2
+Max_iter = 332
+Feature Number : 3
+Max_iter = 433
+Feature Number : 4
+Max_iter = 1014
+Feature Number : 5
+Max_iter = 458
+120 Ronodipom Boshu Hasan Mahbub
+182 Ronodipom Boshu Himu
+205 Ronodipom Boshu Himu
+257 Ronodipom Boshu Himu
+Complete for Voting system :
+Total train set size : 1134
+Total test set size : 490
+Correct prediction : 486
+Incorrect Prediction : 4
+Accuracy : 99.1836734694
+Precision : 99.2633150821
+F1 Score : 99.1984164903
+Error Rate : 0.8163265306122449
+---------------------------------------
+
+clf = MLPClassifier(solver = 'adam',alpha=3, hidden_layer_sizes=(15,), random_state=1, activation='logistic',max_iter =800)
+
+Feature Number : 1
+Max_iter = 197
+Feature Number : 2
+Max_iter = 161
+Feature Number : 3
+Max_iter = 212
+Feature Number : 4
+Max_iter = 214
+Feature Number : 5
+Max_iter = 226
+120 Ronodipom Boshu Hasan Mahbub
+125 Himu Hasan Mahbub
+130 Tareq Anu Hasan Morshad
+139 Tareq Anu Hasan Morshad
+152 Mahbub Lilen Hasan Morshad
+155 Himu Hasan Morshad
+156 Himu Hasan Morshad
+160 Tareq Anu Hasan Morshad
+205 Hasan Mahbub Himu
+270 Tareq Anu Mahbub Lilen
+279 Tareq Anu Mahbub Lilen
+292 Himu Mahbub Lilen
+323 Himu Ronodipom Boshu
+336 Himu Ronodipom Boshu
+351 Himu Tareq Anu
+Complete for Voting system :
+Total train set size : 1134
+Total test set size : 490
+Correct prediction : 475
+Incorrect Prediction : 15
+Accuracy : 96.9387755102
+Precision : 97.0449110074
+F1 Score : 96.9056170021
+Error Rate : 3.061224489795918
+---------------------------------------

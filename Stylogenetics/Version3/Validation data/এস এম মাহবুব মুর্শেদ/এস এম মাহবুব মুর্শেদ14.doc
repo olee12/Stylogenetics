@@ -1,0 +1,21 @@
+আমন্ত্রন জানান বন্ধুকে
+
+
+
+আপনার বন্ধুকে আমন্ত্রন জানানোর জন্য ব্যবহার করুন বামদিকের 'Invite your friends and colleges'। তারপর আপনার বন্ধুর ইমেইল এড্রেসটি দিয়ে টিপে দিন ইনভাইট। আপাতত প্রত্যেকে ৫ জন করে আমন্ত্রন করতে পারবেন। শিঘ্রী কোটা বাড়ানো হবে।
+কোন সমস্যা দেখলে এখানে জানান।
+যে ইমেইল যাবে আপনার বন্ধুর কাছে তা নিম্নরূপ:
+#################################
+হাই,
+আপনার বন্ধু, %inviter %site এ বেশ কিছুদিন যাবৎ লিখছেন। তিনি মনে করেন আপনার উপস্থিতি %siteকে সমৃদ্ধ করবে। %inviter আপনাকে %site [%homepage] যোগ দেবার জন্য আমন্ত্রন জানাচ্ছেন। আশা করি আপনি আমন্ত্রন গ্রহন করে আমাদেরকে সমৃদ্ধ করবেন।
+%site এর সদস্য হবার জন্য, নীচের লিংকটিতে ক্লীক করুন বা ব্রাউজারের এড্রেস বারে পেস্ট করুন।
+%join_link
+----------
+%message
+==========================
+Hi,
+Your friend, %inviter has been contributing in %site for a while. He thinks you can be a good addition to our %site community. %inviter is inviting you to join %site [%homepage]. We hope that your presence will enrich our community.
+To become a member of %site, click the link below or paste it into the address bar of your browser. 
+%join_link
+#################################
+

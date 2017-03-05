@@ -82,8 +82,6 @@ def getFeaturesWords(flag):
     feature_words = [];
     for line in lines:
         word = line;
-        if word == "না":
-            continue;
         word = word.strip();
         if len(word)>=1:
             feature_words.append(word);
