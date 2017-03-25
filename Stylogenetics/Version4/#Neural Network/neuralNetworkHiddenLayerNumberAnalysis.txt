@@ -1,0 +1,786 @@
+Feature Number : 1
+Train data set size : 4166
+Test set size : 862
+Validation set size : 879
+------------------------------------------------
+Number of node in first hidden layer :10
+Train Score : 0.998319731157
+On test set
+Correct prediction : 694
+Incorrect Prediction : 168
+Accuracy : 80.5104408353
+Precision : 81.1871626619
+F1 Score : 80.2472043403
+Error Rate : 19.489559164733176
+---------------------------------------
+
+On validation set
+Correct prediction : 684
+Incorrect Prediction : 178
+Accuracy : 79.7497155859
+Precision : 80.0958695519
+F1 Score : 79.4582177488
+Error Rate : 20.649651972157773
+---------------------------------------
+
+Number of node in first hidden layer :20
+Train Score : 0.999759961594
+On test set
+Correct prediction : 790
+Incorrect Prediction : 72
+Accuracy : 91.6473317865
+Precision : 91.860462007
+F1 Score : 91.5556838247
+Error Rate : 8.352668213457076
+---------------------------------------
+
+On validation set
+Correct prediction : 798
+Incorrect Prediction : 64
+Accuracy : 92.7189988623
+Precision : 92.9651101183
+F1 Score : 92.7101652634
+Error Rate : 7.424593967517401
+---------------------------------------
+
+Number of node in first hidden layer :30
+Train Score : 0.999759961594
+On test set
+Correct prediction : 807
+Incorrect Prediction : 55
+Accuracy : 93.6194895592
+Precision : 93.9206879657
+F1 Score : 93.5925402577
+Error Rate : 6.380510440835267
+---------------------------------------
+
+On validation set
+Correct prediction : 813
+Incorrect Prediction : 49
+Accuracy : 94.425483504
+Precision : 94.5907810511
+F1 Score : 94.3990451212
+Error Rate : 5.68445475638051
+---------------------------------------
+
+Number of node in first hidden layer :40
+Train Score : 0.999759961594
+On test set
+Correct prediction : 808
+Incorrect Prediction : 54
+Accuracy : 93.7354988399
+Precision : 94.0241504963
+F1 Score : 93.7011171227
+Error Rate : 6.2645011600928076
+---------------------------------------
+
+On validation set
+Correct prediction : 827
+Incorrect Prediction : 35
+Accuracy : 96.0182025028
+Precision : 96.1448657181
+F1 Score : 96.0215274198
+Error Rate : 4.060324825986079
+---------------------------------------
+
+Number of node in first hidden layer :50
+Train Score : 0.999759961594
+On test set
+Correct prediction : 819
+Incorrect Prediction : 43
+Accuracy : 95.0116009281
+Precision : 95.3285904286
+F1 Score : 95.0165498202
+Error Rate : 4.988399071925754
+---------------------------------------
+
+On validation set
+Correct prediction : 825
+Incorrect Prediction : 37
+Accuracy : 95.7906712173
+Precision : 95.9844656342
+F1 Score : 95.7912818201
+Error Rate : 4.292343387470997
+---------------------------------------
+
+Number of node in first hidden layer :60
+Train Score : 0.999759961594
+On test set
+Correct prediction : 823
+Incorrect Prediction : 39
+Accuracy : 95.475638051
+Precision : 95.6991038046
+F1 Score : 95.4613722662
+Error Rate : 4.524361948955916
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9090018271
+F1 Score : 96.7948202005
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :70
+Train Score : 0.999759961594
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.4145661979
+F1 Score : 95.2482411413
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 833
+Incorrect Prediction : 29
+Accuracy : 96.7007963595
+Precision : 96.7984048857
+F1 Score : 96.6875385059
+Error Rate : 3.3642691415313224
+---------------------------------------
+
+Number of node in first hidden layer :80
+Train Score : 0.999759961594
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.7782104513
+F1 Score : 95.5673134483
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 838
+Incorrect Prediction : 24
+Accuracy : 97.2696245734
+Precision : 97.3306159321
+F1 Score : 97.250233806
+Error Rate : 2.784222737819025
+---------------------------------------
+
+Number of node in first hidden layer :90
+Train Score : 0.999759961594
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.7397012506
+F1 Score : 95.5718467913
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 831
+Incorrect Prediction : 31
+Accuracy : 96.4732650739
+Precision : 96.6185112699
+F1 Score : 96.4437462872
+Error Rate : 3.596287703016241
+---------------------------------------
+
+Number of node in first hidden layer :100
+Train Score : 0.999759961594
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5207514164
+F1 Score : 95.2484206662
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 831
+Incorrect Prediction : 31
+Accuracy : 96.4732650739
+Precision : 96.6242302558
+F1 Score : 96.4675740732
+Error Rate : 3.596287703016241
+---------------------------------------
+
+Number of node in first hidden layer :110
+Train Score : 1.0
+On test set
+Correct prediction : 823
+Incorrect Prediction : 39
+Accuracy : 95.475638051
+Precision : 95.8463979901
+F1 Score : 95.5300535496
+Error Rate : 4.524361948955916
+---------------------------------------
+
+On validation set
+Correct prediction : 839
+Incorrect Prediction : 23
+Accuracy : 97.3833902162
+Precision : 97.5141066879
+F1 Score : 97.37943459
+Error Rate : 2.668213457076566
+---------------------------------------
+
+Number of node in first hidden layer :120
+Train Score : 1.0
+On test set
+Correct prediction : 827
+Incorrect Prediction : 35
+Accuracy : 95.939675174
+Precision : 96.2896684228
+F1 Score : 95.9827737486
+Error Rate : 4.060324825986079
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.1810273567
+F1 Score : 97.0262209012
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :130
+Train Score : 0.999759961594
+Onhello
+hello
+rect prediction : 814
+Incorrect Prediction : 48
+Accuracy : 94.4315545244
+Precision : 94.7558784056
+F1 Score : 94.4899435896
+Error Rate : 5.56844547563805
+---------------------------------------
+
+On validation set
+Correct prediction : 835
+Incorrect Prediction : 27
+Accuracy : 96.9283276451
+Precision : 97.0136648601
+F1 Score : 96.909048357
+Error Rate : 3.1322505800464038
+---------------------------------------
+
+Number of node in first hidden layer :140
+Train Score : 1.0
+On test set
+Correct prediction : 825
+Incorrect Prediction : 37
+Accuracy : 95.7076566125
+Precision : 95.9756543294
+F1 Score : 95.7380596427
+Error Rate : 4.292343387470997
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9295156203
+F1 Score : 96.8122343868
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :150
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.4815551897
+F1 Score : 95.2464158467
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9687663713
+F1 Score : 96.8120879953
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :160
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.9516465648
+F1 Score : 95.6551759219
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.1353651959
+F1 Score : 97.0437492287
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :170
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5148826963
+F1 Score : 95.2586973547
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.2482542876
+F1 Score : 97.1513000557
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :180
+Train Score : 1.0
+On test set
+Correct prediction : 819
+Incorrect Prediction : 43
+Accuracy : 95.0116009281
+Precision : 95.3228064973
+F1 Score : 95.0593682075
+Error Rate : 4.988399071925754
+---------------------------------------
+
+On validation set
+Correct prediction : 833
+Incorrect Prediction : 29
+Accuracy : 96.7007963595
+Precision : 96.8072477724
+F1 Score : 96.6886561539
+Error Rate : 3.3642691415313224
+---------------------------------------
+
+Number of node in first hidden layer :190
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.8129047549
+F1 Score : 95.6103619933
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.1232186021
+F1 Score : 97.0369385826
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :200
+Train Score : 1.0
+On test set
+Correct prediction : 820
+Incorrect Prediction : 42
+Accuracy : 95.1276102088
+Precision : 95.5319360484
+F1 Score : 95.2152041149
+Error Rate : 4.872389791183294
+---------------------------------------
+
+On validation set
+Correct prediction : 838
+Incorrect Prediction : 24
+Accuracy : 97.2696245734
+Precision : 97.3817091812
+F1 Score : 97.2786153988
+Error Rate : 2.784222737819025
+---------------------------------------
+
+Number of node in first hidden layer :210
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.9339779348
+F1 Score : 95.6445947032
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.1548895915
+F1 Score : 97.0389030594
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :220
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.9133187663
+F1 Score : 95.6395652745
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 835
+Incorrect Prediction : 27
+Accuracy : 96.9283276451
+Precision : 97.0607755869
+F1 Score : 96.9237027943
+Error Rate : 3.1322505800464038
+---------------------------------------
+
+Number of node in first hidden layer :230
+Train Score : 1.0
+On test set
+Correct prediction : 822
+Incorrect Prediction : 40
+Accuracy : 95.3596287703
+Precision : 95.7248683902
+F1 Score : 95.4187660145
+Error Rate : 4.640371229698376
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.151398956
+F1 Score : 97.0275558662
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :240
+Train Score : 1.0
+On test set
+Correct prediction : 822
+Incorrect Prediction : 40
+Accuracy : 95.3596287703
+Precision : 95.6912396942
+F1 Score : 95.4078649589
+Error Rate : 4.640371229698376
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.2813073098
+F1 Score : 97.1576918387
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :250
+Train Score : 1.0
+On test set
+Correct prediction : 818
+Incorrect Prediction : 44
+Accuracy : 94.8955916473
+Precision : 95.2423817611
+F1 Score : 94.9224090228
+Error Rate : 5.104408352668213
+---------------------------------------
+
+On validation set
+Correct prediction : 832
+Incorrect Prediction : 30
+Accuracy : 96.5870307167
+Precision : 96.7451411115
+F1 Score : 96.5956960709
+Error Rate : 3.480278422273782
+---------------------------------------
+
+Number of node in first hidden layer :260
+Train Score : 1.0
+On test set
+Correct prediction : 822
+Incorrect Prediction : 40
+Accuracy : 95.3596287703
+Precision : 95.6582298171
+F1 Score : 95.4058877024
+Error Rate : 4.640371229698376
+---------------------------------------
+
+On validation set
+Correct prediction : 838
+Incorrect Prediction : 24
+Accuracy : 97.2696245734
+Precision : 97.4057525777
+F1 Score : 97.2662308948
+Error Rate : 2.784222737819025
+---------------------------------------
+
+Number of node in first hidden layer :270
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5988341626
+F1 Score : 95.3037207673
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.2574711306
+F1 Score : 97.1496619868
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :280
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5364858334
+F1 Score : 95.2666307197
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9349608831
+F1 Score : 96.8078606439
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :290
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.6269707186
+F1 Score : 95.3001458871
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 835
+Incorrect Prediction : 27
+Accuracy : 96.9283276451
+Precision : 97.115151759
+F1 Score : 96.9363496508
+Error Rate : 3.1322505800464038
+---------------------------------------
+
+Number of node in first hidden layer :300
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 96.0296736427
+F1 Score : 95.6652007238
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 839
+Incorrect Prediction : 23
+Accuracy : 97.3833902162
+Precision : 97.4870564773
+F1 Score : 97.3802293095
+Error Rate : 2.668213457076566
+---------------------------------------
+
+Number of node in first hidden layer :310
+Train Score : 1.0
+On test set
+Correct prediction : 822
+Incorrect Prediction : 40
+Accuracy : 95.3596287703
+Precision : 95.7285689897
+F1 Score : 95.4279488076
+Error Rate : 4.640371229698376
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.2524976419
+F1 Score : 97.1424742222
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :320
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5873623451
+F1 Score : 95.301780035
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9553959442
+F1 Score : 96.8173321385
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :330
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.6368268657
+F1 Score : 95.3124776635
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.2961006736
+F1 Score : 97.1618352304
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :340
+Train Score : 1.0
+On test set
+Correct prediction : 825
+Incorrect Prediction : 37
+Accuracy : 95.7076566125
+Precision : 96.0388939563
+F1 Score : 95.7517742473
+Error Rate : 4.292343387470997
+---------------------------------------
+
+On validation set
+Correct prediction : 836
+Incorrect Prediction : 26
+Accuracy : 97.0420932878
+Precision : 97.1585801664
+F1 Score : 97.0380237259
+Error Rate : 3.0162412993039442
+---------------------------------------
+
+Number of node in first hidden layer :350
+Train Score : 1.0
+On test set
+Correct prediction : 822
+Incorrect Prediction : 40
+Accuracy : 95.3596287703
+Precision : 95.679242776
+F1 Score : 95.4107907407
+Error Rate : 4.640371229698376
+---------------------------------------
+
+On validation set
+Correct prediction : 837
+Incorrect Prediction : 25
+Accuracy : 97.1558589306
+Precision : 97.261112387
+F1 Score : 97.1492227641
+Error Rate : 2.9002320185614847
+---------------------------------------
+
+Number of node in first hidden layer :360
+Train Score : 1.0
+On test set
+Correct prediction : 824
+Incorrect Prediction : 38
+Accuracy : 95.5916473318
+Precision : 95.8643604282
+F1 Score : 95.6251309151
+Error Rate : 4.408352668213457
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.990011029
+F1 Score : 96.8146665723
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :370
+Train Score : 1.0
+On test set
+Correct prediction : 825
+Incorrect Prediction : 37
+Accuracy : 95.7076566125
+Precision : 95.9934201362
+F1 Score : 95.7386483588
+Error Rate : 4.292343387470997
+---------------------------------------
+
+On validation set
+Correct prediction : 834
+Incorrect Prediction : 28
+Accuracy : 96.8145620023
+Precision : 96.9873739844
+F1 Score : 96.820693534
+Error Rate : 3.248259860788863
+---------------------------------------
+
+Number of node in first hidden layer :380
+Train Score : 1.0
+On test set
+Correct prediction : 818
+Incorrect Prediction : 44
+Accuracy : 94.8955916473
+Precision : 95.1823418436
+F1 Score : 94.9453215477
+Error Rate : 5.104408352668213
+---------------------------------------
+
+On validation set
+Correct prediction : 833
+Incorrect Prediction : 29
+Accuracy : 96.7007963595
+Precision : 96.8330538716
+F1 Score : 96.7015882848
+Error Rate : 3.3642691415313224
+---------------------------------------
+
+Number of node in first hidden layer :390
+Train Score : 1.0
+On test set
+Correct prediction : 821
+Incorrect Prediction : 41
+Accuracy : 95.2436194896
+Precision : 95.5310498669
+F1 Score : 95.2770048909
+Error Rate : 4.756380510440835
+---------------------------------------
+
+On validation set
+Correct prediction : 835
+Incorrect Prediction : 27
+Accuracy : 96.9283276451
+Precision : 97.0636473148
+F1 Score : 96.9298465834
+Error Rate : 3.1322505800464038
+---------------------------------------
+
